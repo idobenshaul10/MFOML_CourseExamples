@@ -1,12 +1,8 @@
-import torch
 from environments.base_environment import *
 from torchvision import datasets, transforms
-
 from models.ConvArch import ConvArch
-from models.MLP import MLP
-from models.resnet import resnet18
 import wandb
-
+import torch
 
 class mnist_Conv_env(BaseEnvironment):
     def __init__(self):
@@ -35,12 +31,12 @@ class mnist_Conv_env(BaseEnvironment):
         return transform
 
     def get_layers(self, model):
-        layers = model.initial_layers + model.secondary_layers
+        layers = model.secondary_layers
         return layers
 
     def get_model(self, **kwargs):
-        depth = 6
-        width = 50
+        depth = 5
+        width = 5
 
         input_image_width = self.train_dataset[0][0].shape[1]
         model = ConvArch(input_channel_number=1, input_image_width=input_image_width, num_classes=10, depth=depth,
@@ -48,5 +44,7 @@ class mnist_Conv_env(BaseEnvironment):
 
         if self.use_cuda:
             model = model.cuda()
+        # checkpoint = torch.load(r'checkpoints/weights.best.h5')['checkpoint']
+        # model.load_state_dict(checkpoint)
         wandb.config.update({"model": "MNIST Conv", "depth": depth, "width": width})
         return model

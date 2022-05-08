@@ -17,6 +17,7 @@ class SparsityAnalyzer:
 	depth: int = 15
 	seed: int = 1079
 	use_index: bool = True
+	run_smoothness_on_input: bool = False
 
 
 	def analyze(self, model, result):
@@ -25,17 +26,18 @@ class SparsityAnalyzer:
 							epsilon_2=self.epsilon_2, n_trees=self.trees, depth=self.depth, n_state=self.seed,
 							layers=self.layers, compute_using_index=self.use_index)
 		wandb.log({'compute_using_index': compute_using_index})
-		dataset_len = len(self.train_loader.dataset)
-		data = self.train_loader.dataset.data.reshape(dataset_len, -1)
-		try:
-			data = data.numpy()
-		except:
-			print("data is already in np format")
-
-		start_time = time.time()
-		alpha_score, alphas = probe.run_smoothness_on_features(features=data)
-		print(f"alpha_score for input_layer is {alpha_score}, time:{time.time() - start_time}")
-		result.update({f"Alpha_0": alpha_score})
+		if self.run_smoothness_on_input:
+			dataset_len = len(self.train_loader.dataset)
+			data = self.train_loader.dataset.data.reshape(dataset_len, -1)
+			try:
+				data = data.numpy()
+			except:
+				print("data is already in np format")
+			print("data shape: ", data.shape)
+			start_time = time.time()
+			alpha_score, alphas = probe.run_smoothness_on_features(features=data)
+			print(f"alpha_score for input_layer is {alpha_score}, time:{time.time() - start_time}")
+			result.update({f"Alpha_0": alpha_score})
 
 
 		for layer_idx, layer in tqdm(enumerate(probe.model_handler.layers), total=len(probe.model_handler.layers)):

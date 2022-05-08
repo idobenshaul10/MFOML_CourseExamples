@@ -159,6 +159,7 @@ def training_loop(model, criterion, optimizer, train_loader, valid_loader,
 			result = {'epoch': epoch, 'train_metric': train_acc,
 					  'eval_metric': valid_acc, 'train_loss': train_loss, 'valid_loss': valid_loss}
 			print(f"begining analysis, result:{result}")
+			import pdb; pdb.set_trace()
 			analyzer.analyze(model, result)
 
 	return model, optimizer, (train_losses, valid_losses)
@@ -167,7 +168,7 @@ def training_loop(model, criterion, optimizer, train_loader, valid_loader,
 if __name__ == '__main__':
 	args = get_args()
 	torch.manual_seed(args.seed)
-	wandb.init(project='SparsityForCourse', entity='ibenshaul', mode="online", tags=["Vision", "using_norm"])
+	wandb.init(project='SparsityForCourse', entity='ibenshaul', mode="disabled", tags=["Vision", "using_norm"])
 	wandb.config.update(args)
 
 	m = '.'.join(['environments', args.env_name])
