@@ -1,0 +1,3 @@
+[submodule "NLPSparsityProbeExperiments/NLPSparsityProbeExperiments/transformers"]
+	path = NLPSparsityProbeExperiments/NLPSparsityProbeExperiments/transformers
+	url = https://github.com/huggingface/transformers
