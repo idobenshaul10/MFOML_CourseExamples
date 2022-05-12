@@ -24,8 +24,8 @@ import pickle
 from sklearn.model_selection import train_test_split
 import wandb
 import torch.optim as optim
-
-
+from pytorch_lightning import seed_everything
+seed_everything(2, workers=True)
 # USAGE:  python .\train\train_mnist.py --output_path "results\" --batch_size 32 --epochs 100
 
 def get_args():
@@ -167,7 +167,7 @@ def training_loop(model, criterion, optimizer, train_loader, valid_loader,
 if __name__ == '__main__':
 	args = get_args()
 	torch.manual_seed(args.seed)
-	wandb.init(project='SparsityForCourse', entity='ibenshaul', mode="disabled", tags=["Vision", "using_norm"])
+	wandb.init(project='SparsityForCourse', entity='ibenshaul', mode="online", tags=["Vision", "using_norm"])
 	wandb.config.update(args)
 
 	m = '.'.join(['environments', args.env_name])

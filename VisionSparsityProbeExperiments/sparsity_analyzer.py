@@ -22,7 +22,7 @@ class SparsityAnalyzer:
 
 	def analyze(self, model, result):
 		compute_using_index = True
-		probe = SparsityProbe(self.train_loader, model, apply_dim_reduction=True, epsilon_1=self.epsilon_1,
+		probe = SparsityProbe(self.train_loader, model, apply_dim_reduction=False, epsilon_1=self.epsilon_1,
 							epsilon_2=self.epsilon_2, n_trees=self.trees, depth=self.depth, n_state=self.seed,
 							layers=self.layers, compute_using_index=self.use_index)
 		wandb.log({'compute_using_index': compute_using_index})
@@ -38,7 +38,6 @@ class SparsityAnalyzer:
 			alpha_score, alphas = probe.run_smoothness_on_features(features=data)
 			print(f"alpha_score for input_layer is {alpha_score}, time:{time.time() - start_time}")
 			result.update({f"Alpha_0": alpha_score})
-
 
 		for layer_idx, layer in tqdm(enumerate(probe.model_handler.layers), total=len(probe.model_handler.layers)):
 			start_time = time.time()

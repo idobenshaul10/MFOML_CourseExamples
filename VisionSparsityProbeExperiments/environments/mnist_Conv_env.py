@@ -9,14 +9,14 @@ class mnist_Conv_env(BaseEnvironment):
         super().__init__()
 
     def get_dataset(self):
-        dataset = datasets.MNIST(root=r'/home/ido/datasets/MNIST',
+        dataset = datasets.MNIST(root=r'MNIST',
                                  train=True,
                                  transform=self.get_eval_transform(),
                                  download=True)
         return dataset
 
     def get_test_dataset(self):
-        dataset = datasets.MNIST(root=r'/home/ido/datasets/MNIST',
+        dataset = datasets.MNIST(root=r'MNIST',
                                  train=False,
                                  transform=self.get_eval_transform(),
                                  download=True)
