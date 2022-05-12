@@ -1,0 +1,118 @@
+diff --git a/NLPSparsityProbeExperiments/sparsity_analyzer.py b/NLPSparsityProbeExperiments/sparsity_analyzer.py
+index aaabcbc..7e8883b 100644
+--- a/NLPSparsityProbeExperiments/sparsity_analyzer.py
++++ b/NLPSparsityProbeExperiments/sparsity_analyzer.py
+@@ -28,13 +28,11 @@ class SparsityAnalyzer:
+ 									  epsilon_2=self.epsilon_2, n_trees=self.trees, depth=self.depth, n_state=self.seed,
+ 									  layers=self.layers, compute_using_index=self.use_index)
+ 
+-		# for layer in tqdm(probe.model_handler.layers[-1:]):
+ 		for layer_idx, layer in tqdm(enumerate(probe.model_handler.layers), total=len(probe.model_handler.layers)):
+ 			start_time = time.time()
+ 			alpha_score, alphas = probe.run_smoothness_on_layer(layer, text=f"")
+ 			layer_name = layer._get_name()
+ 			print(f"alpha_score for {layer_name}_{layer_idx} is {alpha_score}, time:{time.time() - start_time}")
+ 			result.update({f"train_SparsityNorm_{layer_idx}": alpha_score})
+-			# wandb.log({"layer": layer_name, "alpha": alpha_score, "alphas_std": alphas.std()})
+ 		wandb.log(result)
+ 		print("after logging to wandb")
+\ No newline at end of file
+Submodule NLPSparsityProbeExperiments/transformers contains untracked content
+Submodule NLPSparsityProbeExperiments/transformers contains modified content
+diff --git a/NLPSparsityProbeExperiments/transformers/examples/pytorch/text-classification/run_glue.py b/NLPSparsityProbeExperiments/transformers/examples/pytorch/text-classification/run_glue.py
+index cb13c0e7b..63ecbde1d 100755
+--- a/NLPSparsityProbeExperiments/transformers/examples/pytorch/text-classification/run_glue.py
++++ b/NLPSparsityProbeExperiments/transformers/examples/pytorch/text-classification/run_glue.py
+@@ -469,12 +469,14 @@ def main():
+     else:
+         data_collator = None
+ 
+-    training_args.evaluation_strategy = 'steps'
++    training_args.evaluation_strategy = 'epochs'
+     training_args.save_strategy = 'steps'
+-    training_args.save_steps = 200
++    training_args.save_steps = 50
+     training_args.seed = 2
+     training_args.evaluate_during_training = True
+     training_args.load_best_model_at_end = True
++    training_args.num_train_epochs = 10
++
+ 
+     # Initialize our Trainer
+     trainer = Trainer(
+diff --git a/NeuralCollapse/Vision/neuralcollapse_run.py b/NeuralCollapse/Vision/neuralcollapse_run.py
+new file mode 100644
+index 0000000..7d5d80d
+--- /dev/null
++++ b/NeuralCollapse/Vision/neuralcollapse_run.py
+@@ -0,0 +1,69 @@
++import sys
++import torch
++
++from analysis import Analyzer
++import gc
++import numpy as np
++import torch.nn as nn
++import torch.optim as optim
++import matplotlib.pyplot as plt
++import torch.nn.functional as F
++import torchvision.models as models
++
++from tqdm import tqdm
++from collections import OrderedDict
++from scipy.sparse.linalg import svds
++from torchvision import datasets, transforms
++from IPython import embed
++import datetime
++import pickle
++import wandb
++import random
++from losses import ConsistancyLoss
++from init_loader import init
++import argparse
++
++def main(conf, next_parameters):
++	device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++	lr_decay = 0.1
++	epoch_list = [1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 101, 110, 121, 132, 144, 158, 172, 188, 206,
++				  225, 245, 268, 293, 320, 350]
++
++	print(f"next_parameters:{next_parameters}")
++
++	conf, model, trainer, criterion_summed, device, num_classes, epochs, epochs_lr_decay, dataset = init(conf,
++					use_consistency_loss=next_parameters['use_consistency_loss'], next_parameters=next_parameters)
++
++	layer_names = ['layer1', 'layer2', 'layer3', 'layer4', 'avgpool', 'fc']
++	eval_layers = []
++	for layer_name in layer_names:
++		layer = eval(f"model.{layer_name}")
++		eval_layers.append((layer_name, layer))
++	analyzer = Analyzer(conf, model, eval_layers, num_classes, device, criterion_summed)
++
++	lr_scheduler = optim.lr_scheduler.MultiStepLR(trainer.optimizer,
++												  milestones=epochs_lr_decay,
++												  gamma=lr_decay)
++
++	cur_epochs = []
++	for epoch in range(1, epochs + 1):
++		print(f"Starting epoch {epoch}")
++		trainer.train(epoch)
++		lr_scheduler.step()
++
++		if epoch in epoch_list:
++			cur_epochs.append(epoch)
++			result = analyzer.analyze(epoch)
++
++
++def run_main(next_parameters, config_path):
++	dataset_config = pickle.load(open(config_path, "rb"))
++	main(conf=dataset_config, next_parameters=next_parameters)
++
++if __name__ == '__main__':
++	alpha_const, layers_from_end, use_const = float(sys.argv[1]), int(sys.argv[2]), sys.argv[3] == 'True'
++	config_path = sys.argv[4]
++	next_parameters = {'alpha_consis': alpha_const,
++					   'num_layers_from_end': layers_from_end, 'use_consistency_loss': use_const}
++	print(next_parameters)
++	run_main(next_parameters, config_path)
+\ No newline at end of file
