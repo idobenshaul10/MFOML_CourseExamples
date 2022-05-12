@@ -6,7 +6,7 @@ parentdir = os.path.dirname(currentdir)
 sys.path.append(parentdir)
 
 from sparsity_analyzer import SparsityAnalyzer
-
+import torch.nn.functional as F
 import numpy as np
 from datetime import datetime
 import torch
@@ -25,7 +25,10 @@ from sklearn.model_selection import train_test_split
 import wandb
 import torch.optim as optim
 from pytorch_lightning import seed_everything
+
 seed_everything(2, workers=True)
+
+
 # USAGE:  python .\train\train_mnist.py --output_path "results\" --batch_size 32 --epochs 100
 
 def get_args():
@@ -34,7 +37,7 @@ def get_args():
 	parser.add_argument('--seed', default=0, type=int, help='seed')
 	parser.add_argument('--lr', default=0.1, type=float, help='lr for train')
 	parser.add_argument('--batch_size', default=128, type=int, help='batch_size for train/test')
-	parser.add_argument('--epochs', default=501, type=int, help='num epochs for train')
+	parser.add_argument('--epochs', default=85, type=int, help='num epochs for train')
 	parser.add_argument('--env_name', type=str, default="cifar10_resnet_env")
 	parser.add_argument('--save_epochs', action="store_true")
 	parser.add_argument('--use_norms', action="store_true")
@@ -46,11 +49,30 @@ def get_args():
 
 softmax = nn.Softmax(dim=1)
 
+def log_test_predictions(images, labels, outputs, predicted, test_table, log_counter):
+	LOG_IMAGES_PER_BATCH = 10
+	# obtain confidence scores for ALL classes
+	scores = F.softmax(outputs.data, dim=1)
+	log_scores = scores.cpu().numpy()
+	log_images = images.cpu().numpy()
+	log_labels = labels.cpu().numpy()
+	log_preds = predicted.cpu().numpy()
+	# assing ids based on the order of the images
+	_id = 0
+	for i, l, p, s in zip(log_images, log_labels, log_preds, log_scores):
+		# add required info to data table:
+		# id, image pixels, model's guess, true label, scores for all classes
+		img_id = str(_id) + "_" + str(log_counter)
+		test_table.add_data(img_id, wandb.Histogram(i, num_bins=40), p, l, *s)
+		_id += 1
+		if _id == LOG_IMAGES_PER_BATCH:
+			break
+
 
 def train(train_loader, model, criterion, optimizer, device):
 	model.train()
 	running_loss = 0
-	for X, y_true in tqdm(train_loader, total=len(train_loader)):
+	for idx, (X, y_true) in enumerate(tqdm(train_loader, total=len(train_loader))):
 		optimizer.zero_grad()
 		X = X.to(device)
 		y_true = y_true.to(device)
@@ -64,16 +86,21 @@ def train(train_loader, model, criterion, optimizer, device):
 	return model, optimizer, epoch_loss
 
 
-def validate(valid_loader, model, criterion, device):
+def validate(valid_loader, model, criterion, device, test_table=None):
 	model.eval()
 	running_loss = 0
-
+	log_counter = 0
 	for X, y_true in valid_loader:
 		X = X.to(device)
 		y_true = y_true.to(device).long()
 		y_hat = model(X)
+		_, predicted = torch.max(y_hat.data, 1)
 		loss = criterion(y_hat, y_true)
 		running_loss += loss.item() * X.size(0)
+		if test_table is not None and log_counter < 10:
+			log_test_predictions(X, y_true, y_hat, predicted, test_table, log_counter)
+			log_counter += 1
+
 
 	epoch_loss = running_loss / len(valid_loader.dataset)
 	return model, epoch_loss
@@ -127,18 +154,26 @@ def training_loop(model, criterion, optimizer, train_loader, valid_loader,
 
 	train_acc = get_accuracy(model, train_loader, device=device)
 	valid_acc = get_accuracy(model, valid_loader, device=device)
+	log_artifacts = False
 
 	# result = {'epoch': 0, 'train_metric': train_acc,
 	# 		  'eval_metric': valid_acc}
 	# analyzer.analyze(model, result)
+	test_table = None
 
 	for epoch in range(0, epochs):
+		if log_artifacts:
+			test_data_at = wandb.Artifact("test_samples_" + str(wandb.run.id), type="predictions")
+			columns = ["id", "image", "guess", "truth"]
+			for digit in range(10):
+				columns.append("score_" + str(digit))
+			test_table = wandb.Table(columns=columns)
 		model, optimizer, train_loss = train(train_loader, model, criterion, optimizer, device)
 		train_losses.append(train_loss)
 		lr_scheduler.step()
 
 		with torch.no_grad():
-			model, valid_loss = validate(valid_loader, model, criterion, device)
+			model, valid_loss = validate(valid_loader, model, criterion, device, test_table=test_table)
 			valid_losses.append(valid_loss)
 
 		if epoch % print_every == (print_every - 1):
@@ -151,15 +186,23 @@ def training_loop(model, criterion, optimizer, train_loader, valid_loader,
 				  f'Valid loss: {valid_loss:.4f}\t'
 				  f'Train accuracy: {100 * train_acc:.2f}\t'
 				  f'Valid accuracy: {100 * valid_acc:.2f}')
+			wandb.log({'train_loss': train_loss, 'valid_loss': valid_loss,
+					   'train_acc': train_acc, 'valid_acc': valid_acc})
 
-		if epoch == epochs - 1:
-			if save_epochs:
-				os.makedirs("checkpoints", exist_ok=True)
-				save_epoch("checkpoints", epoch, model, train_acc, valid_acc, epoch_checkpoint=False)
-			result = {'epoch': epoch, 'train_metric': train_acc,
-					  'eval_metric': valid_acc, 'train_loss': train_loss, 'valid_loss': valid_loss}
-			print(f"begining analysis, result:{result}")
-			analyzer.analyze(model, result)
+
+			if epoch == epochs - 1:
+				if save_epochs:
+					os.makedirs("checkpoints", exist_ok=True)
+					save_epoch("checkpoints", epoch, model, train_acc, valid_acc, epoch_checkpoint=False)
+				result = {'epoch': epoch, 'train_metric': train_acc,
+						  'eval_metric': valid_acc, 'train_loss': train_loss, 'valid_loss': valid_loss}
+				print(f"begining analysis, result:{result}")
+				analyzer.analyze(model, result)
+
+
+		if log_artifacts:
+			test_data_at.add(test_table, "predictions")
+			wandb.run.log_artifact(test_data_at)
 
 	return model, optimizer, (train_losses, valid_losses)
 
@@ -177,6 +220,8 @@ if __name__ == '__main__':
 	environment = eval(f"module.{args.env_name}()")
 
 	model, train_dataset, test_dataset, layers = environment.load_environment(**dict_input)
+
+
 
 	time_filename = datetime.now().strftime("%Y_%m_%d-%I_%M_%S_%p")
 	# import pdb;	pdb.set_trace()

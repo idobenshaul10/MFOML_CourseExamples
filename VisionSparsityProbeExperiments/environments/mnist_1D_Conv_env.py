@@ -22,6 +22,7 @@ class mnist_1D_Conv_env(BaseEnvironment):
         x_train = torch.Tensor(self.data['x'])
         y_train = torch.LongTensor(self.data['y'])
         dataset = TensorDataset(x_train, y_train)
+
         return dataset
 
     def get_test_dataset(self):
