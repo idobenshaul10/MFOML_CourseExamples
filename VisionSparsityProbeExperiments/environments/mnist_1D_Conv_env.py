@@ -32,7 +32,8 @@ class mnist_1D_Conv_env(BaseEnvironment):
         return dataset
 
     def get_layers(self, model):
-        layers = model.initial_layers + model.secondary_layers[:-2]
+        layers = [k for k  in model.initial_layers] + [k for k in model.secondary_layers[:-2]]
+		
         return layers
 
     def get_model(self, **kwargs):

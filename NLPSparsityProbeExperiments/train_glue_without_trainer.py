@@ -399,11 +399,6 @@ def main():
 										  shuffle=False, batch_size=args.per_device_eval_batch_size,
 										  worker_init_fn=seed_worker, generator=g)
 
-	train_dataset_3 = TV_datasets.MNIST("../data", train=True, download=True)
-	# fake_loader = torch.utils.data.DataLoader(train_dataset_3,
-	# 										   batch_size=128, shuffle=False, worker_init_fn=seed_worker,
-	# 										   generator=g)
-
 	# Optimizer
 	# Split weights in two groups, one with weight decay and the other not.
 	no_decay = ["bias", "LayerNorm.weight"]
@@ -457,12 +452,14 @@ def main():
 
 	for epoch in range(args.num_train_epochs):
 		model.train()
+		cur_loss = []
 		for step, batch in enumerate(train_dataloader):
 			batch = {k: v.cuda() for k, v in batch.items()}
 			outputs = model(**batch)
 			loss = outputs.loss
 
 			loss = loss / args.gradient_accumulation_steps
+			cur_loss.append(loss.item())
 			accelerator.backward(loss)
 			if step % args.gradient_accumulation_steps == 0 or step == len(train_dataloader) - 1:
 				optimizer.step()
@@ -473,6 +470,7 @@ def main():
 
 			if completed_steps >= args.max_train_steps:
 				break
+		mean_loss = np.mean(cur_loss)
 
 		# EVALUATE
 		model.eval()
@@ -505,14 +503,17 @@ def main():
 				)
 			cur_res = metric.compute()
 			eval_metric = cur_res[key]
-			# eval_metric = (np.array(preds_total) == np.array(labels_total)).sum() / len(preds_total)
+			
 			print(eval_metric)
 
 		print(f"epoch {epoch}: train:{train_metric} eval: {eval_metric}")
-		result = {'epoch': epoch, 'train_metric': train_metric, 'eval_metric': eval_metric}
+		result = {'epoch': epoch, 'train_metric': train_metric, 'eval_metric': eval_metric, 
+				 'train_loss':mean_loss}
 		print(f"begining analysis, result:{result}")
-		if epoch == args.num_train_epochs - 1:
-			analyzer.analyze(model, result)
+		wandb.log(result)
+		# if epoch == args.num_train_epochs - 1:
+		# 	analyzer.analyze(model, result)
+
 
 	return eval_metric
 
