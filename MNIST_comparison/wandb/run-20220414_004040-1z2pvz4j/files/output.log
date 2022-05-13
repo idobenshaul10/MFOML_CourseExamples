@@ -1,0 +1,35 @@
+Training tree model...
+Predicting WF RF
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+  0%|                                                                                                            | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 125, in <module>
+    main(seed=i)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 98, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 74, in predict_WF_RF
+    test_mae, _ = np.power(test_pred.squeeze() - y_test, 2).mean()
+TypeError: cannot unpack non-iterable numpy.float64 object
+TOTAL train_mae:0.07072603650013025
+test_mae with all wavelets:0.4734666666666667
+num_wavelets:50
+train_mae:34.64735915964404

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_denoiser.py", line 138, in <module>
+    main(seed, trees, noise_level=noise_level)
+  File "/home/ido/projects/MNIST_comparison/train_denoiser.py", line 101, in main
+    X_train, Y_train, X_test, Y_test = create_dataset(noise_level=noise_level)
+  File "/home/ido/projects/MNIST_comparison/train_denoiser.py", line 115, in create_dataset
+    img = cv2.resize(img, 128, interpolation=cv2.INTER_AREA)
+cv2.error: OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Input argument doesn't provide sequence protocol
+>  - Can't parse 'dsize'. Input argument doesn't provide sequence protocol

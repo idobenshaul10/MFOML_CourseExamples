@@ -1,0 +1,100 @@
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+ 50%|█████████████████████████████████████████████████▌                                                 | 11/22 [00:00<00:00, 13.17it/s]
+Training tree model...
+Predicting WF RF
+TOTAL train_mae:0.29132006908504227
+test_mae with all wavelets:0.88
+num_wavelets:0
+train_mae:34.645237232886636
+test_mae 0 wavelets:34.45025641025641
+***********************
+num_wavelets:100
+train_mae:34.586168927317125
+test_mae 100 wavelets:34.44305299375799
+***********************
+num_wavelets:200
+train_mae:0.667710219752254
+test_mae 200 wavelets:0.7835408528166756
+***********************
+num_wavelets:300
+train_mae:0.6335495488762654
+test_mae 300 wavelets:0.7869482648591891
+***********************
+num_wavelets:400
+train_mae:0.6112209394420225
+test_mae 400 wavelets:0.7788026772958666
+***********************
+num_wavelets:500
+train_mae:0.5942632105108651
+test_mae 500 wavelets:0.7804076348990885
+***********************
+num_wavelets:600
+train_mae:0.574303521413037
+test_mae 600 wavelets:0.7873319527652491
+***********************
+num_wavelets:700
+train_mae:0.5568201136111833
+test_mae 700 wavelets:0.7940251134723404
+***********************
+num_wavelets:800
+train_mae:0.5257265343419542
+test_mae 800 wavelets:0.8009621429217129
+***********************
+num_wavelets:900
+train_mae:0.5095472155553706
+test_mae 900 wavelets:0.7976312173045957
+***********************
+num_wavelets:1000
+train_mae:0.5001012098168754
+test_mae 1000 wavelets:0.7846148401691346
+***********************
+num_wavelets:1100
+train_mae:0.49561205185649915
+test_mae 1100 wavelets:0.7889856881601148
+***********************
+num_wavelets:1200
+train_mae:0.4905672407160926
+test_mae 1200 wavelets:0.8004140217605182
+***********************
+num_wavelets:1300
+train_mae:0.469398612925414
+test_mae 1300 wavelets:0.808071622475761
+***********************
+num_wavelets:1400
+train_mae:0.4588205549873676
+test_mae 1400 wavelets:0.8077429373789184
+***********************
+
+ 95%|██████████████████████████████████████████████████████████████████████████████████████████████▌    | 21/22 [00:03<00:00,  4.11it/s]
+train_mae:0.3985223704933885
+test_mae 1500 wavelets:0.7837266352072054
+***********************
+num_wavelets:1600
+train_mae:0.38956052420939913
+test_mae 1600 wavelets:0.8097821395414784
+***********************
+num_wavelets:1700
+train_mae:0.3771186592841679
+test_mae 1700 wavelets:0.8133581553355854
+***********************
+num_wavelets:1800
+train_mae:0.3629880647072055
+test_mae 1800 wavelets:0.815556811064822
+***********************
+num_wavelets:1900
+train_mae:0.3488934458156704
+test_mae 1900 wavelets:0.8301334082624864
+***********************
+num_wavelets:2000
+train_mae:0.33966004709002234
+test_mae 2000 wavelets:0.8689798436986331
+***********************
+num_wavelets:2100
+train_mae:0.3299614391928738
+test_mae 2100 wavelets:0.8717930870148615
+***********************
+Predicting normal RF...
+train_mae:1.4253893516841725
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:03<00:00,  6.46it/s]

@@ -1,0 +1,10 @@
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to mnist/MNIST/raw/train-images-idx3-ubyte.gz
+Extracting mnist/MNIST/raw/train-images-idx3-ubyte.gz to mnist/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+9913344it [00:00, 11481875.10it/s]
+29696it [00:00, 14402642.41it/s]
+ 48%|██████████████████████████████▎                                | 793600/1648877 [00:01<00:01, 532300.11it/s]
+Extracting mnist/MNIST/raw/train-labels-idx1-ubyte.gz to mnist/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz

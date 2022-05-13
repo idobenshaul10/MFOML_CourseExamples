@@ -1,0 +1,83 @@
+
+ 47%|████████████████████████████████████                                        | 9/19 [00:00<00:01,  8.32it/s]
+Training tree model...
+Predicting WF RF
+TOTAL train_mae:0.060919287442269626
+num_wavelets:0
+train_mae:158366.0
+test_mae 0 wavelets:66534.0
+***********************
+num_wavelets:100
+train_mae:39803.0
+test_mae 100 wavelets:17988.0
+***********************
+num_wavelets:200
+train_mae:39803.0
+test_mae 200 wavelets:17988.0
+***********************
+num_wavelets:300
+train_mae:39803.0
+test_mae 300 wavelets:17988.0
+***********************
+num_wavelets:400
+train_mae:39803.0
+test_mae 400 wavelets:17988.0
+***********************
+num_wavelets:500
+train_mae:39803.0
+test_mae 500 wavelets:17988.0
+***********************
+num_wavelets:600
+train_mae:39803.0
+test_mae 600 wavelets:17988.0
+***********************
+num_wavelets:700
+train_mae:39803.0
+test_mae 700 wavelets:17988.0
+***********************
+num_wavelets:800
+train_mae:39803.0
+test_mae 800 wavelets:17988.0
+***********************
+num_wavelets:900
+train_mae:39803.0
+test_mae 900 wavelets:17988.0
+***********************
+
+ 89%|███████████████████████████████████████████████████████████████████        | 17/19 [00:03<00:00,  3.19it/s]
+train_mae:39803.0
+test_mae 1000 wavelets:17988.0
+***********************
+num_wavelets:1100
+train_mae:39803.0
+test_mae 1100 wavelets:17988.0
+***********************
+num_wavelets:1200
+train_mae:39803.0
+test_mae 1200 wavelets:17988.0
+***********************
+num_wavelets:1300
+train_mae:39803.0
+test_mae 1300 wavelets:17988.0
+***********************
+num_wavelets:1400
+train_mae:39803.0
+test_mae 1400 wavelets:17988.0
+***********************
+num_wavelets:1500
+train_mae:39803.0
+test_mae 1500 wavelets:17988.0
+***********************
+num_wavelets:1600
+train_mae:39803.0
+test_mae 1600 wavelets:17988.0
+***********************
+num_wavelets:1700
+train_mae:39803.0
+test_mae 1700 wavelets:17988.0
+***********************
+num_wavelets:1800
+train_mae:39803.0
+test_mae 1800 wavelets:17988.0
+
+100%|███████████████████████████████████████████████████████████████████████████| 19/19 [00:04<00:00,  4.53it/s]

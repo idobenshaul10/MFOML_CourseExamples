@@ -1,0 +1,48 @@
+2022-04-19 22:04:44,383 INFO    MainThread:12436 [internal.py:wandb_internal():92] W&B internal server running at pid: 12436, started at: 2022-04-19 22:04:44.383853
+2022-04-19 22:04:44,385 INFO    WriterThread:12436 [datastore.py:open_for_write():77] open: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/run-2hxwpovy.wandb
+2022-04-19 22:04:44,386 DEBUG   SenderThread:12436 [sender.py:send():235] send: header
+2022-04-19 22:04:44,386 DEBUG   SenderThread:12436 [sender.py:send():235] send: run
+2022-04-19 22:04:46,354 INFO    SenderThread:12436 [dir_watcher.py:__init__():169] watching files in: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files
+2022-04-19 22:04:46,354 INFO    SenderThread:12436 [sender.py:_start_run_threads():812] run started: 2hxwpovy with start time 1650395084
+2022-04-19 22:04:46,354 DEBUG   SenderThread:12436 [sender.py:send():235] send: summary
+2022-04-19 22:04:46,354 INFO    SenderThread:12436 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-19 22:04:46,354 DEBUG   HandlerThread:12436 [handler.py:handle_request():141] handle_request: check_version
+2022-04-19 22:04:46,354 DEBUG   SenderThread:12436 [sender.py:send_request():249] send_request: check_version
+2022-04-19 22:04:46,686 DEBUG   HandlerThread:12436 [handler.py:handle_request():141] handle_request: run_start
+2022-04-19 22:04:46,689 DEBUG   HandlerThread:12436 [meta.py:__init__():37] meta init
+2022-04-19 22:04:46,689 DEBUG   HandlerThread:12436 [meta.py:__init__():51] meta init done
+2022-04-19 22:04:46,689 DEBUG   HandlerThread:12436 [meta.py:probe():211] probe
+2022-04-19 22:04:46,695 DEBUG   HandlerThread:12436 [git.py:repo():33] git repository is invalid
+2022-04-19 22:04:46,695 DEBUG   HandlerThread:12436 [meta.py:_save_code():89] save code
+2022-04-19 22:04:46,695 DEBUG   HandlerThread:12436 [meta.py:_save_code():110] save code done
+2022-04-19 22:04:46,695 DEBUG   HandlerThread:12436 [meta.py:_save_pip():55] save pip
+2022-04-19 22:04:46,696 DEBUG   HandlerThread:12436 [meta.py:_save_pip():69] save pip done
+2022-04-19 22:04:46,696 DEBUG   HandlerThread:12436 [meta.py:_save_conda():76] save conda
+2022-04-19 22:04:47,356 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/code/train_denoiser.py
+2022-04-19 22:04:47,356 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/requirements.txt
+2022-04-19 22:04:47,356 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/wandb-summary.json
+2022-04-19 22:04:47,356 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/conda-environment.yaml
+2022-04-19 22:04:47,356 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/code
+2022-04-19 22:04:50,175 DEBUG   HandlerThread:12436 [meta.py:_save_conda():86] save conda done
+2022-04-19 22:04:50,175 DEBUG   HandlerThread:12436 [meta.py:probe():249] probe done
+2022-04-19 22:04:50,209 DEBUG   SenderThread:12436 [sender.py:send():235] send: files
+2022-04-19 22:04:50,209 INFO    SenderThread:12436 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-19 22:04:50,209 INFO    SenderThread:12436 [sender.py:_save_file():947] saving file code/train_denoiser.py with policy now
+2022-04-19 22:04:50,213 DEBUG   HandlerThread:12436 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-19 22:04:50,213 DEBUG   SenderThread:12436 [sender.py:send_request():249] send_request: stop_status
+2022-04-19 22:04:50,357 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/conda-environment.yaml
+2022-04-19 22:04:50,357 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/output.log
+2022-04-19 22:04:50,357 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/wandb-metadata.json
+2022-04-19 22:04:50,520 DEBUG   SenderThread:12436 [sender.py:send():235] send: telemetry
+2022-04-19 22:04:50,520 DEBUG   SenderThread:12436 [sender.py:send():235] send: config
+2022-04-19 22:04:51,006 INFO    Thread-11 :12436 [upload_job.py:push():137] Uploaded file /tmp/tmpce3r03uiwandb/7k8c5a46-wandb-metadata.json
+2022-04-19 22:04:51,062 INFO    Thread-12 :12436 [upload_job.py:push():137] Uploaded file /tmp/tmpce3r03uiwandb/15cbfcjt-code/train_denoiser.py
+2022-04-19 22:04:52,398 DEBUG   SenderThread:12436 [sender.py:send():235] send: config
+2022-04-19 22:04:54,358 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/output.log
+2022-04-19 22:05:12,318 DEBUG   HandlerThread:12436 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-19 22:05:12,319 DEBUG   SenderThread:12436 [sender.py:send_request():249] send_request: stop_status
+2022-04-19 22:05:15,170 DEBUG   SenderThread:12436 [sender.py:send():235] send: stats
+2022-04-19 22:05:15,363 INFO    Thread-7  :12436 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220419_220443-2hxwpovy/files/config.yaml
+2022-04-19 22:05:29,103 WARNING MainThread:12436 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-04-19 22:05:29,426 WARNING MainThread:12436 [internal.py:wandb_internal():155] Internal process interrupt: 2
+2022-04-19 22:05:29,426 ERROR   MainThread:12436 [internal.py:wandb_internal():158] Internal process interrupted.

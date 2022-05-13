@@ -1,0 +1,17 @@
+
+Begining train, args:Namespace(output_path=None, seed=0, lr=0.001, batch_size=32, epochs=100, env_name='cifar10_env', save_epochs=False, device='cuda')
+  0%|                                                                                   | 0/1875 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_convnet.py", line 162, in <module>
+    model, optimizer, _ = training_loop(model, criterion, optimizer, \
+  File "/home/ido/projects/MNIST_comparison/train_convnet.py", line 110, in training_loop
+    model, optimizer, train_loss = train(train_loader, model, criterion, optimizer, device)
+  File "/home/ido/projects/MNIST_comparison/train_convnet.py", line 47, in train
+    loss = criterion(y_hat, y_true.long())
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 1163, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torch/nn/functional.py", line 2996, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+TypeError: cross_entropy_loss(): argument 'input' (position 1) must be Tensor, not tuple

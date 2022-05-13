@@ -1,0 +1,167 @@
+2022-04-14 00:39:40,736 INFO    MainThread:41141 [internal.py:wandb_internal():92] W&B internal server running at pid: 41141, started at: 2022-04-14 00:39:40.736278
+2022-04-14 00:39:40,737 INFO    WriterThread:41141 [datastore.py:open_for_write():77] open: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/run-27a4e7bx.wandb
+2022-04-14 00:39:40,739 DEBUG   SenderThread:41141 [sender.py:send():235] send: header
+2022-04-14 00:39:40,739 DEBUG   SenderThread:41141 [sender.py:send():235] send: run
+2022-04-14 00:39:41,178 INFO    SenderThread:41141 [dir_watcher.py:__init__():169] watching files in: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files
+2022-04-14 00:39:41,179 INFO    SenderThread:41141 [sender.py:_start_run_threads():812] run started: 27a4e7bx with start time 1649885980
+2022-04-14 00:39:41,179 DEBUG   SenderThread:41141 [sender.py:send():235] send: summary
+2022-04-14 00:39:41,179 INFO    SenderThread:41141 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-14 00:39:41,180 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: check_version
+2022-04-14 00:39:41,180 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: check_version
+2022-04-14 00:39:41,509 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: run_start
+2022-04-14 00:39:41,512 DEBUG   HandlerThread:41141 [meta.py:__init__():37] meta init
+2022-04-14 00:39:41,512 DEBUG   HandlerThread:41141 [meta.py:__init__():51] meta init done
+2022-04-14 00:39:41,512 DEBUG   HandlerThread:41141 [meta.py:probe():211] probe
+2022-04-14 00:39:41,518 DEBUG   HandlerThread:41141 [git.py:repo():33] git repository is invalid
+2022-04-14 00:39:41,518 DEBUG   HandlerThread:41141 [meta.py:_save_code():89] save code
+2022-04-14 00:39:41,518 DEBUG   HandlerThread:41141 [meta.py:_save_code():110] save code done
+2022-04-14 00:39:41,518 DEBUG   HandlerThread:41141 [meta.py:_save_pip():55] save pip
+2022-04-14 00:39:41,519 DEBUG   HandlerThread:41141 [meta.py:_save_pip():69] save pip done
+2022-04-14 00:39:41,519 DEBUG   HandlerThread:41141 [meta.py:_save_conda():76] save conda
+2022-04-14 00:39:42,180 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/conda-environment.yaml
+2022-04-14 00:39:42,181 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/code/train_RF_wine.py
+2022-04-14 00:39:42,181 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/requirements.txt
+2022-04-14 00:39:42,181 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/wandb-summary.json
+2022-04-14 00:39:42,181 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/code
+2022-04-14 00:39:44,915 DEBUG   HandlerThread:41141 [meta.py:_save_conda():86] save conda done
+2022-04-14 00:39:44,915 DEBUG   HandlerThread:41141 [meta.py:probe():249] probe done
+2022-04-14 00:39:44,948 DEBUG   SenderThread:41141 [sender.py:send():235] send: files
+2022-04-14 00:39:44,948 INFO    SenderThread:41141 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-14 00:39:44,948 INFO    SenderThread:41141 [sender.py:_save_file():947] saving file code/train_RF_wine.py with policy now
+2022-04-14 00:39:44,952 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-14 00:39:44,952 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: stop_status
+2022-04-14 00:39:45,181 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/conda-environment.yaml
+2022-04-14 00:39:45,182 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/wandb-metadata.json
+2022-04-14 00:39:45,182 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/output.log
+2022-04-14 00:39:45,321 DEBUG   SenderThread:41141 [sender.py:send():235] send: telemetry
+2022-04-14 00:39:45,322 DEBUG   SenderThread:41141 [sender.py:send():235] send: config
+2022-04-14 00:39:45,851 INFO    Thread-12 :41141 [upload_job.py:push():137] Uploaded file /tmp/tmp2fzrb6gbwandb/1ob42k9r-code/train_RF_wine.py
+2022-04-14 00:39:45,913 INFO    Thread-11 :41141 [upload_job.py:push():137] Uploaded file /tmp/tmp2fzrb6gbwandb/2i4iie4k-wandb-metadata.json
+2022-04-14 00:39:51,183 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/output.log
+2022-04-14 00:39:51,504 DEBUG   SenderThread:41141 [sender.py:send():235] send: telemetry
+2022-04-14 00:39:51,504 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-14 00:39:53,184 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/output.log
+2022-04-14 00:39:53,999 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:53,999 DEBUG   SenderThread:41141 [sender.py:send():235] send: exit
+2022-04-14 00:39:53,999 INFO    SenderThread:41141 [sender.py:send_exit():371] handling exit code: 1
+2022-04-14 00:39:54,000 INFO    SenderThread:41141 [sender.py:send_exit():373] handling runtime: 12
+2022-04-14 00:39:54,000 INFO    SenderThread:41141 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-14 00:39:54,000 INFO    SenderThread:41141 [sender.py:send_exit():379] send defer
+2022-04-14 00:39:54,000 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:54,001 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:54,001 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-14 00:39:54,001 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:54,001 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-14 00:39:54,001 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 1
+2022-04-14 00:39:54,001 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:54,001 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-14 00:39:54,029 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:54,029 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-14 00:39:54,029 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 2
+2022-04-14 00:39:54,029 DEBUG   SenderThread:41141 [sender.py:send():235] send: stats
+2022-04-14 00:39:54,030 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:54,030 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-14 00:39:54,030 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:54,030 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-14 00:39:54,030 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 3
+2022-04-14 00:39:54,030 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:54,030 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-14 00:39:54,030 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:54,030 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-14 00:39:54,030 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 4
+2022-04-14 00:39:54,030 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:54,030 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-14 00:39:54,030 DEBUG   SenderThread:41141 [sender.py:send():235] send: summary
+2022-04-14 00:39:54,031 INFO    SenderThread:41141 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-14 00:39:54,031 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:54,031 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-14 00:39:54,031 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 5
+2022-04-14 00:39:54,031 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:54,031 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-14 00:39:54,031 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:54,031 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-14 00:39:54,101 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:54,185 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/wandb-summary.json
+2022-04-14 00:39:54,185 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/output.log
+2022-04-14 00:39:54,423 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 6
+2022-04-14 00:39:54,423 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:54,423 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:54,423 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-14 00:39:54,424 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:54,424 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-14 00:39:54,424 INFO    SenderThread:41141 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-14 00:39:54,524 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:55,185 INFO    Thread-7  :41141 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/config.yaml
+2022-04-14 00:39:55,185 INFO    SenderThread:41141 [dir_watcher.py:finish():313] scan: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files
+2022-04-14 00:39:55,188 INFO    SenderThread:41141 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/wandb-metadata.json wandb-metadata.json
+2022-04-14 00:39:55,188 INFO    SenderThread:41141 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/output.log output.log
+2022-04-14 00:39:55,188 INFO    SenderThread:41141 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/config.yaml config.yaml
+2022-04-14 00:39:55,188 INFO    SenderThread:41141 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/conda-environment.yaml conda-environment.yaml
+2022-04-14 00:39:55,188 INFO    SenderThread:41141 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/wandb-summary.json wandb-summary.json
+2022-04-14 00:39:55,191 INFO    SenderThread:41141 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/requirements.txt requirements.txt
+2022-04-14 00:39:55,200 INFO    SenderThread:41141 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/code/train_RF_wine.py code/train_RF_wine.py
+2022-04-14 00:39:55,203 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 7
+2022-04-14 00:39:55,203 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:55,203 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:55,204 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-14 00:39:55,204 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:55,204 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-14 00:39:55,204 INFO    SenderThread:41141 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-14 00:39:55,304 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:55,305 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:55,406 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:55,406 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:55,507 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:55,508 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:55,609 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:55,609 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:55,710 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:55,710 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:55,811 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:55,812 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:55,913 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:55,913 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:56,015 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:56,015 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:56,087 INFO    Thread-14 :41141 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/config.yaml
+2022-04-14 00:39:56,105 INFO    Thread-15 :41141 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/conda-environment.yaml
+2022-04-14 00:39:56,114 INFO    Thread-13 :41141 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/output.log
+2022-04-14 00:39:56,116 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:56,117 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:56,141 INFO    Thread-17 :41141 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/requirements.txt
+2022-04-14 00:39:56,153 INFO    Thread-16 :41141 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/files/wandb-summary.json
+2022-04-14 00:39:56,218 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:56,218 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:56,320 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:56,320 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:56,353 INFO    Thread-6  :41141 [sender.py:transition_state():392] send defer: 8
+2022-04-14 00:39:56,354 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:56,354 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-14 00:39:56,354 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:56,354 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-14 00:39:56,421 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:56,645 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 9
+2022-04-14 00:39:56,645 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:56,646 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:56,646 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-14 00:39:56,646 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:56,646 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-14 00:39:56,646 INFO    SenderThread:41141 [sender.py:transition_state():392] send defer: 10
+2022-04-14 00:39:56,647 DEBUG   SenderThread:41141 [sender.py:send():235] send: final
+2022-04-14 00:39:56,647 DEBUG   SenderThread:41141 [sender.py:send():235] send: footer
+2022-04-14 00:39:56,647 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: defer
+2022-04-14 00:39:56,647 INFO    HandlerThread:41141 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-14 00:39:56,647 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: defer
+2022-04-14 00:39:56,647 INFO    SenderThread:41141 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-14 00:39:56,747 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-14 00:39:56,747 DEBUG   SenderThread:41141 [sender.py:send_request():249] send_request: poll_exit
+2022-04-14 00:39:56,747 INFO    SenderThread:41141 [file_pusher.py:join():150] waiting for file pusher
+2022-04-14 00:39:57,540 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-14 00:39:57,540 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-14 00:39:57,541 DEBUG   HandlerThread:41141 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-14 00:39:57,541 INFO    HandlerThread:41141 [handler.py:finish():778] shutting down handler
+2022-04-14 00:39:57,647 INFO    WriterThread:41141 [datastore.py:close():281] close: /home/ido/projects/MNIST_comparison/wandb/run-20220414_003940-27a4e7bx/run-27a4e7bx.wandb
+2022-04-14 00:39:58,439 INFO    SenderThread:41141 [sender.py:finish():1078] shutting down sender
+2022-04-14 00:39:58,439 INFO    SenderThread:41141 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-14 00:39:58,439 INFO    SenderThread:41141 [file_pusher.py:join():150] waiting for file pusher
+2022-04-14 00:39:58,440 INFO    MainThread:41141 [internal.py:handle_exit():82] Internal process exited

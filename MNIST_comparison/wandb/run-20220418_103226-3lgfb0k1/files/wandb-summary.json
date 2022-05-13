@@ -1,0 +1,1 @@
+{"num_wavelets": 4243, "WF_RF_train_mae": 0.15907438713653144, "WF_RF_test_mae": 0.5807359743534692, "min_WF_RF_test_mae": 0.5120033908128159, "_timestamp": 1650267213, "_runtime": 60, "_step": 101, "_wandb": {"runtime": 61}}

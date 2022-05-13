@@ -1,0 +1,29 @@
+
+  6%|███▋                                                           | 573440/9912422 [00:00<00:16, 571394.69it/s]
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+ 16%|█████████▋                                                    | 1546240/9912422 [00:02<00:15, 553992.82it/s]
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_convnet.py", line 144, in <module>
+    model, train_dataset, test_dataset, _ = environment.load_environment(**dict_input)
+  File "/home/ido/projects/MNIST_comparison/load_mnist.py", line 19, in load_environment
+    train_dataset = self.get_dataset()
+  File "/home/ido/projects/MNIST_comparison/load_mnist.py", line 49, in get_dataset
+    dataset = datasets.MNIST(root=r'mnist',
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torchvision/datasets/mnist.py", line 99, in __init__
+    self.download()
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torchvision/datasets/mnist.py", line 187, in download
+    download_and_extract_archive(url, download_root=self.raw_folder, filename=filename, md5=md5)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torchvision/datasets/utils.py", line 430, in download_and_extract_archive
+    download_url(url, download_root, filename, md5)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torchvision/datasets/utils.py", line 141, in download_url
+    _urlretrieve(url, fpath)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torchvision/datasets/utils.py", line 35, in _urlretrieve
+    for chunk in iter(lambda: response.read(chunk_size), ""):
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/torchvision/datasets/utils.py", line 35, in <lambda>
+    for chunk in iter(lambda: response.read(chunk_size), ""):
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/http/client.py", line 462, in read
+    n = self.readinto(b)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/http/client.py", line 506, in readinto
+    n = self.fp.readinto(b)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)

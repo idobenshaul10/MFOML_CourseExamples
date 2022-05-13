@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.8.0-63-generic-x86_64-with-glibc2.32",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-04-19T19:04:46.689743",
+    "startedAt": "2022-04-19T19:04:43.996251",
+    "docker": null,
+    "gpu": "GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/ido/projects/MNIST_comparison/train_denoiser.py",
+    "codePath": "train_denoiser.py",
+    "host": "IdoMonster",
+    "username": "ido",
+    "executable": "/home/ido/miniconda3/envs/sparsity_probe_env/bin/python"
+}

@@ -1,0 +1,73 @@
+
+100%|███████████████████████████████████████████████████████████████████████████| 17/17 [00:00<00:00, 56.29it/s]
+Training tree model...
+Predicting WF RF
+TOTAL train_mae:0.060919287442269626
+num_wavelets:0
+train_mae:158366.0
+test_mae 0 wavelets:66534.0
+***********************
+num_wavelets:3
+train_mae:4188.737034793257
+test_mae 3 wavelets:1908.9362668398408
+***********************
+num_wavelets:6
+train_mae:4188.737034793257
+test_mae 6 wavelets:1908.9362668398408
+***********************
+num_wavelets:9
+train_mae:19351.47073225095
+test_mae 9 wavelets:8885.173146359964
+***********************
+num_wavelets:12
+train_mae:26805.069153057004
+test_mae 12 wavelets:12193.023028321475
+***********************
+num_wavelets:15
+train_mae:37035.17567496016
+test_mae 15 wavelets:16706.24879863205
+***********************
+num_wavelets:18
+train_mae:35244.96661803112
+test_mae 18 wavelets:15968.940224759626
+***********************
+num_wavelets:21
+train_mae:35244.96661803112
+test_mae 21 wavelets:15968.940224759626
+***********************
+num_wavelets:24
+train_mae:40032.81217167814
+test_mae 24 wavelets:18082.228069926507
+***********************
+num_wavelets:27
+train_mae:40032.81217167814
+test_mae 27 wavelets:18082.228069926507
+***********************
+num_wavelets:30
+train_mae:40032.81217167814
+test_mae 30 wavelets:18082.228069926507
+***********************
+num_wavelets:33
+train_mae:40032.81217167814
+test_mae 33 wavelets:18082.228069926507
+***********************
+num_wavelets:36
+train_mae:40032.81217167814
+test_mae 36 wavelets:18082.228069926507
+***********************
+num_wavelets:39
+train_mae:40032.81217167814
+test_mae 39 wavelets:18082.228069926507
+***********************
+num_wavelets:42
+train_mae:40032.81217167814
+test_mae 42 wavelets:18082.228069926507
+***********************
+num_wavelets:45
+train_mae:40032.81217167814
+test_mae 45 wavelets:18082.228069926507
+***********************
+num_wavelets:48
+train_mae:40032.81217167814
+test_mae 48 wavelets:18082.228069926507
+***********************

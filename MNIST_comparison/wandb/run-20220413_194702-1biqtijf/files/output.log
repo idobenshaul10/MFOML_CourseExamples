@@ -1,0 +1,437 @@
+
+ 11%|███████▊                                                                  | 24/228 [00:00<00:09, 21.47it/s]
+Training tree model...
+Predicting WF RF
+TOTAL train_acc:0.159569009748589
+num_wavelets:1
+train_acc:0.0
+test_acc 1 wavelets:0.0
+***********************
+num_wavelets:11
+train_acc:0.0
+test_acc 11 wavelets:0.0
+***********************
+num_wavelets:21
+train_acc:0.0
+test_acc 21 wavelets:0.0
+***********************
+num_wavelets:31
+train_acc:0.0
+test_acc 31 wavelets:0.0
+***********************
+num_wavelets:41
+train_acc:0.0
+test_acc 41 wavelets:0.0
+***********************
+num_wavelets:51
+train_acc:0.0
+test_acc 51 wavelets:0.0
+***********************
+num_wavelets:61
+train_acc:0.0
+test_acc 61 wavelets:0.0
+***********************
+num_wavelets:71
+train_acc:0.0
+test_acc 71 wavelets:0.0
+***********************
+num_wavelets:81
+train_acc:0.1576877030956046
+test_acc 81 wavelets:0.14307692307692307
+***********************
+num_wavelets:91
+train_acc:0.1576877030956046
+test_acc 91 wavelets:0.14307692307692307
+***********************
+num_wavelets:101
+train_acc:0.1576877030956046
+test_acc 101 wavelets:0.14307692307692307
+***********************
+num_wavelets:111
+train_acc:0.1576877030956046
+test_acc 111 wavelets:0.14307692307692307
+***********************
+num_wavelets:121
+train_acc:0.1576877030956046
+test_acc 121 wavelets:0.14307692307692307
+***********************
+num_wavelets:131
+train_acc:0.159569009748589
+test_acc 131 wavelets:0.14461538461538462
+***********************
+num_wavelets:141
+train_acc:0.159569009748589
+test_acc 141 wavelets:0.14461538461538462
+***********************
+num_wavelets:151
+train_acc:0.159569009748589
+test_acc 151 wavelets:0.14461538461538462
+***********************
+num_wavelets:161
+train_acc:0.159569009748589
+test_acc 161 wavelets:0.14461538461538462
+***********************
+num_wavelets:171
+train_acc:0.159569009748589
+test_acc 171 wavelets:0.14461538461538462
+***********************
+num_wavelets:181
+train_acc:0.159569009748589
+test_acc 181 wavelets:0.14461538461538462
+***********************
+num_wavelets:191
+train_acc:0.159569009748589
+test_acc 191 wavelets:0.14461538461538462
+***********************
+num_wavelets:201
+train_acc:0.159569009748589
+test_acc 201 wavelets:0.14461538461538462
+***********************
+num_wavelets:211
+train_acc:0.159569009748589
+test_acc 211 wavelets:0.14461538461538462
+***********************
+num_wavelets:221
+train_acc:0.159569009748589
+test_acc 221 wavelets:0.14461538461538462
+***********************
+num_wavelets:231
+train_acc:0.159569009748589
+test_acc 231 wavelets:0.14461538461538462
+***********************
+num_wavelets:241
+train_acc:0.159569009748589
+test_acc 241 wavelets:0.14461538461538462
+***********************
+num_wavelets:251
+train_acc:0.159569009748589
+test_acc 251 wavelets:0.14461538461538462
+***********************
+
+ 20%|██████████████▉                                                           | 46/228 [00:03<00:20,  9.02it/s]
+train_acc:0.159569009748589
+test_acc 261 wavelets:0.14461538461538462
+***********************
+num_wavelets:271
+train_acc:0.159569009748589
+test_acc 271 wavelets:0.14461538461538462
+***********************
+num_wavelets:281
+train_acc:0.159569009748589
+test_acc 281 wavelets:0.14461538461538462
+***********************
+num_wavelets:291
+train_acc:0.159569009748589
+test_acc 291 wavelets:0.14461538461538462
+***********************
+num_wavelets:301
+train_acc:0.159569009748589
+test_acc 301 wavelets:0.14461538461538462
+***********************
+num_wavelets:311
+train_acc:0.159569009748589
+test_acc 311 wavelets:0.14461538461538462
+***********************
+num_wavelets:321
+train_acc:0.159569009748589
+test_acc 321 wavelets:0.14461538461538462
+***********************
+num_wavelets:331
+train_acc:0.159569009748589
+test_acc 331 wavelets:0.14461538461538462
+***********************
+num_wavelets:341
+train_acc:0.159569009748589
+test_acc 341 wavelets:0.14461538461538462
+***********************
+num_wavelets:351
+train_acc:0.159569009748589
+test_acc 351 wavelets:0.14461538461538462
+***********************
+num_wavelets:361
+train_acc:0.159569009748589
+test_acc 361 wavelets:0.14461538461538462
+***********************
+num_wavelets:371
+train_acc:0.159569009748589
+test_acc 371 wavelets:0.14461538461538462
+***********************
+num_wavelets:381
+train_acc:0.159569009748589
+test_acc 381 wavelets:0.14461538461538462
+***********************
+num_wavelets:391
+train_acc:0.159569009748589
+test_acc 391 wavelets:0.14461538461538462
+***********************
+num_wavelets:401
+train_acc:0.159569009748589
+test_acc 401 wavelets:0.14461538461538462
+***********************
+num_wavelets:411
+train_acc:0.159569009748589
+test_acc 411 wavelets:0.14461538461538462
+***********************
+num_wavelets:421
+train_acc:0.159569009748589
+test_acc 421 wavelets:0.14461538461538462
+***********************
+num_wavelets:431
+train_acc:0.159569009748589
+test_acc 431 wavelets:0.14461538461538462
+***********************
+num_wavelets:441
+train_acc:0.159569009748589
+test_acc 441 wavelets:0.14461538461538462
+***********************
+num_wavelets:451
+train_acc:0.159569009748589
+test_acc 451 wavelets:0.14461538461538462
+***********************
+num_wavelets:461
+train_acc:0.159569009748589
+test_acc 461 wavelets:0.14461538461538462
+***********************
+num_wavelets:471
+
+ 28%|████████████████████▍                                                     | 63/228 [00:05<00:24,  6.84it/s]
+test_acc 471 wavelets:0.14461538461538462
+***********************
+num_wavelets:481
+train_acc:0.159569009748589
+test_acc 481 wavelets:0.14461538461538462
+***********************
+num_wavelets:491
+train_acc:0.159569009748589
+test_acc 491 wavelets:0.14461538461538462
+***********************
+num_wavelets:501
+train_acc:0.159569009748589
+test_acc 501 wavelets:0.14461538461538462
+***********************
+num_wavelets:511
+train_acc:0.159569009748589
+test_acc 511 wavelets:0.14461538461538462
+***********************
+num_wavelets:521
+train_acc:0.159569009748589
+test_acc 521 wavelets:0.14461538461538462
+***********************
+num_wavelets:531
+train_acc:0.159569009748589
+test_acc 531 wavelets:0.14461538461538462
+***********************
+num_wavelets:541
+train_acc:0.159569009748589
+test_acc 541 wavelets:0.14461538461538462
+***********************
+num_wavelets:551
+train_acc:0.159569009748589
+test_acc 551 wavelets:0.14461538461538462
+***********************
+num_wavelets:561
+train_acc:0.159569009748589
+test_acc 561 wavelets:0.14461538461538462
+***********************
+num_wavelets:571
+train_acc:0.159569009748589
+test_acc 571 wavelets:0.14461538461538462
+***********************
+num_wavelets:581
+train_acc:0.159569009748589
+test_acc 581 wavelets:0.14461538461538462
+***********************
+num_wavelets:591
+train_acc:0.159569009748589
+test_acc 591 wavelets:0.14461538461538462
+***********************
+num_wavelets:601
+train_acc:0.159569009748589
+test_acc 601 wavelets:0.14461538461538462
+***********************
+num_wavelets:611
+train_acc:0.159569009748589
+test_acc 611 wavelets:0.14461538461538462
+***********************
+num_wavelets:621
+train_acc:0.159569009748589
+test_acc 621 wavelets:0.14461538461538462
+***********************
+
+ 32%|███████████████████████▎                                                  | 72/228 [00:06<00:26,  5.92it/s]
+train_acc:0.159569009748589
+test_acc 631 wavelets:0.14461538461538462
+***********************
+num_wavelets:641
+train_acc:0.159569009748589
+test_acc 641 wavelets:0.14461538461538462
+***********************
+num_wavelets:651
+train_acc:0.159569009748589
+test_acc 651 wavelets:0.14461538461538462
+***********************
+num_wavelets:661
+train_acc:0.159569009748589
+test_acc 661 wavelets:0.14461538461538462
+***********************
+num_wavelets:671
+train_acc:0.159569009748589
+test_acc 671 wavelets:0.14461538461538462
+***********************
+num_wavelets:681
+train_acc:0.159569009748589
+test_acc 681 wavelets:0.14461538461538462
+***********************
+num_wavelets:691
+train_acc:0.159569009748589
+test_acc 691 wavelets:0.14461538461538462
+***********************
+num_wavelets:701
+train_acc:0.159569009748589
+test_acc 701 wavelets:0.14461538461538462
+***********************
+num_wavelets:711
+train_acc:0.159569009748589
+test_acc 711 wavelets:0.14461538461538462
+***********************
+num_wavelets:721
+train_acc:0.159569009748589
+test_acc 721 wavelets:0.14461538461538462
+***********************
+num_wavelets:731
+train_acc:0.159569009748589
+test_acc 731 wavelets:0.14461538461538462
+***********************
+num_wavelets:741
+train_acc:0.159569009748589
+test_acc 741 wavelets:0.14461538461538462
+***********************
+
+ 37%|███████████████████████████▎                                              | 84/228 [00:09<00:29,  4.96it/s]
+train_acc:0.159569009748589
+test_acc 751 wavelets:0.14461538461538462
+***********************
+num_wavelets:761
+train_acc:0.159569009748589
+test_acc 761 wavelets:0.14461538461538462
+***********************
+num_wavelets:771
+train_acc:0.159569009748589
+test_acc 771 wavelets:0.14461538461538462
+***********************
+num_wavelets:781
+train_acc:0.159569009748589
+test_acc 781 wavelets:0.14461538461538462
+***********************
+num_wavelets:791
+train_acc:0.159569009748589
+test_acc 791 wavelets:0.14461538461538462
+***********************
+num_wavelets:801
+train_acc:0.159569009748589
+test_acc 801 wavelets:0.14461538461538462
+***********************
+num_wavelets:811
+train_acc:0.159569009748589
+test_acc 811 wavelets:0.14461538461538462
+***********************
+num_wavelets:821
+train_acc:0.159569009748589
+test_acc 821 wavelets:0.14461538461538462
+***********************
+num_wavelets:831
+train_acc:0.159569009748589
+test_acc 831 wavelets:0.14461538461538462
+***********************
+
+ 40%|█████████████████████████████▊                                            | 92/228 [00:10<00:29,  4.57it/s]
+train_acc:0.159569009748589
+test_acc 841 wavelets:0.14461538461538462
+***********************
+num_wavelets:851
+train_acc:0.159569009748589
+test_acc 851 wavelets:0.14461538461538462
+***********************
+num_wavelets:861
+train_acc:0.159569009748589
+test_acc 861 wavelets:0.14461538461538462
+***********************
+num_wavelets:871
+train_acc:0.159569009748589
+test_acc 871 wavelets:0.14461538461538462
+***********************
+num_wavelets:881
+train_acc:0.159569009748589
+test_acc 881 wavelets:0.14461538461538462
+***********************
+num_wavelets:891
+train_acc:0.159569009748589
+test_acc 891 wavelets:0.14461538461538462
+***********************
+num_wavelets:901
+train_acc:0.159569009748589
+test_acc 901 wavelets:0.14461538461538462
+***********************
+num_wavelets:911
+train_acc:0.159569009748589
+test_acc 911 wavelets:0.14461538461538462
+***********************
+num_wavelets:921
+train_acc:0.159569009748589
+test_acc 921 wavelets:0.14461538461538462
+***********************
+ 45%|████████████████████████████████▋                                        | 102/228 [00:13<00:16,  7.54it/s]
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 97, in <module>
+    main()
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 75, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 50, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 295, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+train_acc:0.159569009748589
+test_acc 931 wavelets:0.14461538461538462
+***********************
+num_wavelets:941
+train_acc:0.159569009748589
+test_acc 941 wavelets:0.14461538461538462
+***********************
+num_wavelets:951
+train_acc:0.159569009748589
+test_acc 951 wavelets:0.14461538461538462
+***********************
+num_wavelets:961
+train_acc:0.159569009748589
+test_acc 961 wavelets:0.14461538461538462
+***********************
+num_wavelets:971
+train_acc:0.159569009748589
+test_acc 971 wavelets:0.14461538461538462
+***********************
+num_wavelets:981
+train_acc:0.159569009748589
+test_acc 981 wavelets:0.14461538461538462
+***********************
+num_wavelets:991
+train_acc:0.159569009748589
+test_acc 991 wavelets:0.14461538461538462
+***********************
+num_wavelets:1001
+train_acc:0.159569009748589
+test_acc 1001 wavelets:0.14461538461538462
+***********************
+num_wavelets:1011
+train_acc:0.159569009748589
+test_acc 1011 wavelets:0.14461538461538462
+***********************
+num_wavelets:1021

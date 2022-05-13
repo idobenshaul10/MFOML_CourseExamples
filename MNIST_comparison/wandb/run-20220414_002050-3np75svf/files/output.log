@@ -1,0 +1,14 @@
+Training tree model...
+Predicting WF RF
+TOTAL train_mae:1.4176949935941534
+test_mae with all wavelets:1.5759868792428844
+num_wavelets:50
+  0%|                                                                                                            | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 125, in <module>
+    main(seed=i)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 98, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 68, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+ValueError: too many values to unpack (expected 2)

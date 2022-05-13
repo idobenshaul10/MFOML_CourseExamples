@@ -1,0 +1,253 @@
+Training tree model...
+Predicting WF RF
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+TOTAL train_mae:0.23452687958618945
+test_mae with all wavelets:0.5049544188973422
+num_wavelets:0
+train_mae:34.645237232886636
+test_mae 0 wavelets:34.45025641025641
+***********************
+num_wavelets:138
+train_mae:34.66928277728918
+test_mae 138 wavelets:34.47250600333957
+***********************
+num_wavelets:276
+train_mae:34.66803095387756
+test_mae 276 wavelets:34.47977948204714
+***********************
+num_wavelets:414
+train_mae:0.6724756529013385
+test_mae 414 wavelets:0.7713593974680018
+***********************
+num_wavelets:552
+train_mae:0.664416319901078
+test_mae 552 wavelets:0.7726096922202592
+***********************
+num_wavelets:690
+train_mae:0.6532253153425979
+test_mae 690 wavelets:0.7626671560021169
+***********************
+num_wavelets:828
+train_mae:0.6372579738763944
+test_mae 828 wavelets:0.7508074943035675
+***********************
+num_wavelets:966
+train_mae:0.6278304518474055
+test_mae 966 wavelets:0.7510232971269666
+***********************
+num_wavelets:1104
+train_mae:0.6228199800205976
+test_mae 1104 wavelets:0.7494564284736254
+***********************
+num_wavelets:1242
+
+ 27%|███████████████████████████▏                                                                       | 14/51 [00:03<00:13,  2.75it/s]
+train_mae:0.6107394482459246
+test_mae 1242 wavelets:0.7420836242525184
+***********************
+num_wavelets:1380
+train_mae:0.6002959854472083
+test_mae 1380 wavelets:0.7395220900625187
+***********************
+num_wavelets:1518
+train_mae:0.5876112405580701
+test_mae 1518 wavelets:0.7288185829269542
+***********************
+num_wavelets:1656
+train_mae:0.5806265874663951
+test_mae 1656 wavelets:0.7226744666060725
+***********************
+num_wavelets:1794
+train_mae:0.573411355213958
+test_mae 1794 wavelets:0.7183031672333327
+***********************
+num_wavelets:1932
+
+ 35%|██████████████████████████████████▉                                                                | 18/51 [00:05<00:18,  1.75it/s]
+test_mae 1932 wavelets:0.7146768239888253
+***********************
+num_wavelets:2070
+train_mae:0.5585888483749327
+test_mae 2070 wavelets:0.7083884066528873
+***********************
+num_wavelets:2208
+train_mae:0.5214271410460061
+test_mae 2208 wavelets:0.6770889205906566
+***********************
+num_wavelets:2346
+train_mae:0.5136517832860369
+test_mae 2346 wavelets:0.6708150209515189
+***********************
+
+ 41%|████████████████████████████████████████▊                                                          | 21/51 [00:08<00:21,  1.37it/s]
+train_mae:0.5000578716172561
+test_mae 2484 wavelets:0.6565145213080779
+***********************
+num_wavelets:2622
+train_mae:0.49172299449023754
+test_mae 2622 wavelets:0.6504688751766684
+***********************
+num_wavelets:2760
+train_mae:0.4873018702509814
+test_mae 2760 wavelets:0.6452122255667935
+***********************
+
+ 45%|████████████████████████████████████████████▋                                                      | 23/51 [00:09<00:22,  1.22it/s]
+train_mae:0.4820536593565729
+test_mae 2898 wavelets:0.6419163316975453
+***********************
+num_wavelets:3036
+train_mae:0.47850109820225817
+test_mae 3036 wavelets:0.6398993672546289
+***********************
+
+ 49%|████████████████████████████████████████████████▌                                                  | 25/51 [00:11<00:24,  1.07it/s]
+train_mae:0.47247548927520566
+test_mae 3174 wavelets:0.6367213245256726
+***********************
+num_wavelets:3312
+train_mae:0.4657363806450722
+test_mae 3312 wavelets:0.6339574992908042
+***********************
+
+ 51%|██████████████████████████████████████████████████▍                                                | 26/51 [00:13<00:24,  1.00it/s]
+train_mae:0.462720316686338
+test_mae 3450 wavelets:0.6344792672663409
+***********************
+num_wavelets:3588
+train_mae:0.45491311221778574
+test_mae 3588 wavelets:0.63016127194061
+***********************
+num_wavelets:3726
+train_mae:0.4368084742490531
+test_mae 3726 wavelets:0.6146830990406462
+***********************
+
+
+ 61%|████████████████████████████████████████████████████████████▏                                      | 31/51 [00:19<00:23,  1.18s/it]
+train_mae:0.42586586283208416
+test_mae 3864 wavelets:0.6074283529769857
+***********************
+num_wavelets:4002
+train_mae:0.4161584206319392
+test_mae 4002 wavelets:0.6041869220600364
+***********************
+num_wavelets:4140
+train_mae:0.40951562850220846
+test_mae 4140 wavelets:0.6012263936933493
+***********************
+num_wavelets:4278
+train_mae:0.399880481552625
+test_mae 4278 wavelets:0.5934508959805762
+***********************
+num_wavelets:4416
+train_mae:0.3840313513788694
+test_mae 4416 wavelets:0.5836078660110454
+***********************
+
+ 63%|██████████████████████████████████████████████████████████████                                     | 32/51 [00:20<00:22,  1.21s/it]
+train_mae:0.3728969373421698
+test_mae 4554 wavelets:0.5775776204867329
+***********************
+
+
+ 73%|███████████████████████████████████████████████████████████████████████▊                           | 37/51 [00:27<00:19,  1.39s/it]
+train_mae:0.3549928230080853
+test_mae 4692 wavelets:0.5646300890065742
+***********************
+num_wavelets:4830
+train_mae:0.3395091293441466
+test_mae 4830 wavelets:0.5561957949355568
+***********************
+num_wavelets:4968
+train_mae:0.33340580710771506
+test_mae 4968 wavelets:0.5526396432849294
+***********************
+
+ 76%|███████████████████████████████████████████████████████████████████████████▋                       | 39/51 [00:30<00:17,  1.44s/it]
+train_mae:0.3288710105820467
+test_mae 5106 wavelets:0.549226823822296
+***********************
+num_wavelets:5244
+train_mae:0.3209089386688351
+test_mae 5244 wavelets:0.5451657298035738
+***********************
+num_wavelets:5382
+train_mae:0.3081308047529883
+test_mae 5382 wavelets:0.538505848381098
+***********************
+
+
+ 82%|█████████████████████████████████████████████████████████████████████████████████▌                 | 42/51 [00:35<00:13,  1.56s/it]
+train_mae:0.3012504731241696
+test_mae 5520 wavelets:0.5361344728347056
+***********************
+num_wavelets:5658
+train_mae:0.2950010392937597
+test_mae 5658 wavelets:0.5301315182803128
+***********************
+num_wavelets:5796
+train_mae:0.2845047118897451
+test_mae 5796 wavelets:0.5238765871259542
+***********************
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████▍             | 44/51 [00:38<00:11,  1.61s/it]
+train_mae:0.27406068600090117
+test_mae 5934 wavelets:0.5174317231622341
+***********************
+num_wavelets:6072
+train_mae:0.26851860307643205
+test_mae 6072 wavelets:0.5157775755064756
+***********************
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████▎         | 46/51 [00:42<00:08,  1.70s/it]
+train_mae:0.26399890832280287
+test_mae 6210 wavelets:0.5150227718289141
+***********************
+num_wavelets:6348
+train_mae:0.2525407300210118
+test_mae 6348 wavelets:0.5102034567175572
+***********************
+num_wavelets:6486
+train_mae:0.2473637400763878
+test_mae 6486 wavelets:0.50848071710733
+***********************
+
+ 94%|█████████████████████████████████████████████████████████████████████████████████████████████▏     | 48/51 [00:45<00:05,  1.77s/it]
+train_mae:0.24404294972931653
+test_mae 6624 wavelets:0.505312011017507
+***********************
+
+ 96%|███████████████████████████████████████████████████████████████████████████████████████████████    | 49/51 [00:47<00:03,  1.79s/it]
+train_mae:0.23894871518989397
+test_mae 6762 wavelets:0.5029809727938565
+***********************
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████  | 50/51 [00:49<00:01,  1.84s/it]
+train_mae:0.2353767194929444
+test_mae 6900 wavelets:0.5054920932921864
+***********************
+Predicting normal RF...
+train_mae:1.0484034771842483
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 51/51 [00:51<00:00,  1.01s/it]

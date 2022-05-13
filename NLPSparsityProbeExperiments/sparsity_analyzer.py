@@ -28,13 +28,11 @@ class SparsityAnalyzer:
 									  epsilon_2=self.epsilon_2, n_trees=self.trees, depth=self.depth, n_state=self.seed,
 									  layers=self.layers, compute_using_index=self.use_index)
 
-		# for layer in tqdm(probe.model_handler.layers[-1:]):
 		for layer_idx, layer in tqdm(enumerate(probe.model_handler.layers), total=len(probe.model_handler.layers)):
 			start_time = time.time()
 			alpha_score, alphas = probe.run_smoothness_on_layer(layer, text=f"")
 			layer_name = layer._get_name()
 			print(f"alpha_score for {layer_name}_{layer_idx} is {alpha_score}, time:{time.time() - start_time}")
 			result.update({f"train_SparsityNorm_{layer_idx}": alpha_score})
-			# wandb.log({"layer": layer_name, "alpha": alpha_score, "alphas_std": alphas.std()})
 		wandb.log(result)
 		print("after logging to wandb")

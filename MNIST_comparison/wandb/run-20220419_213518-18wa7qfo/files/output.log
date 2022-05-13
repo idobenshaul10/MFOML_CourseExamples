@@ -1,0 +1,436 @@
+Training tree model...
+Predicting WF RF
+TOTAL train_mae:2654.39788638571
+test_mae with all wavelets:2654.22513464117
+num_wavelets:1
+train_mae:7624.820218279856
+test_mae 1 wavelets:7624.878022810002
+***********************
+num_wavelets:8
+train_mae:2947.26296920426
+test_mae 8 wavelets:2946.9364486768227
+***********************
+num_wavelets:15
+train_mae:2923.4418699553594
+test_mae 15 wavelets:2923.187559768528
+***********************
+num_wavelets:22
+train_mae:2894.3166946484953
+test_mae 22 wavelets:2894.078123393028
+***********************
+num_wavelets:29
+train_mae:2882.3958931083175
+test_mae 29 wavelets:2882.1564701617017
+***********************
+num_wavelets:36
+train_mae:2859.5010271484866
+test_mae 36 wavelets:2859.241415470038
+***********************
+num_wavelets:43
+train_mae:2870.76180890657
+test_mae 43 wavelets:2870.529263386473
+***********************
+num_wavelets:50
+train_mae:2851.2262600244776
+test_mae 50 wavelets:2850.971740314324
+***********************
+num_wavelets:57
+train_mae:2840.5227854082523
+test_mae 57 wavelets:2840.26428851326
+***********************
+num_wavelets:64
+train_mae:2814.8901902664857
+test_mae 64 wavelets:2814.628265126825
+***********************
+num_wavelets:71
+train_mae:2796.5885774242097
+test_mae 71 wavelets:2796.3274862600647
+***********************
+num_wavelets:78
+train_mae:2785.0012281311137
+test_mae 78 wavelets:2784.744960786384
+***********************
+num_wavelets:85
+train_mae:2759.654078166769
+test_mae 85 wavelets:2759.368711609689
+***********************
+num_wavelets:92
+train_mae:2746.358290285194
+test_mae 92 wavelets:2746.0929091510716
+***********************
+num_wavelets:99
+train_mae:2747.1003593268224
+test_mae 99 wavelets:2746.86106432002
+***********************
+num_wavelets:106
+train_mae:2740.005200276784
+test_mae 106 wavelets:2739.7682414884607
+***********************
+num_wavelets:113
+train_mae:2753.973809748587
+test_mae 113 wavelets:2753.7502636138497
+***********************
+num_wavelets:120
+train_mae:2753.118877538823
+test_mae 120 wavelets:2752.8933011235445
+***********************
+num_wavelets:127
+train_mae:2743.925622911218
+test_mae 127 wavelets:2743.691849412503
+***********************
+num_wavelets:134
+train_mae:2752.503134543168
+test_mae 134 wavelets:2752.265520350457
+***********************
+num_wavelets:141
+train_mae:2739.5367872436627
+test_mae 141 wavelets:2739.292526633488
+***********************
+num_wavelets:148
+train_mae:2737.855444510614
+test_mae 148 wavelets:2737.604687516416
+***********************
+num_wavelets:155
+train_mae:2745.981867737238
+test_mae 155 wavelets:2745.739611281701
+***********************
+num_wavelets:162
+train_mae:2751.736334258801
+test_mae 162 wavelets:2751.486556950108
+***********************
+num_wavelets:169
+train_mae:2746.1302025935556
+test_mae 169 wavelets:2745.8858278817497
+***********************
+num_wavelets:176
+train_mae:2743.7587950189413
+test_mae 176 wavelets:2743.52290885794
+***********************
+num_wavelets:183
+train_mae:2745.2117053891725
+test_mae 183 wavelets:2744.9740899477706
+***********************
+num_wavelets:190
+train_mae:2754.9131927722437
+test_mae 190 wavelets:2754.673313909233
+***********************
+num_wavelets:197
+train_mae:2754.324519717159
+test_mae 197 wavelets:2754.0658766499173
+***********************
+num_wavelets:204
+train_mae:2746.907519701669
+test_mae 204 wavelets:2746.626705479809
+***********************
+num_wavelets:211
+train_mae:2749.791744660831
+test_mae 211 wavelets:2749.5130802790745
+***********************
+num_wavelets:218
+train_mae:2738.743217653391
+test_mae 218 wavelets:2738.471662854854
+***********************
+num_wavelets:225
+train_mae:2736.229717385395
+test_mae 225 wavelets:2735.957457921886
+***********************
+num_wavelets:232
+train_mae:2730.0948338163985
+test_mae 232 wavelets:2729.8158099552193
+***********************
+num_wavelets:239
+train_mae:2720.540096879294
+test_mae 239 wavelets:2720.274531276145
+***********************
+num_wavelets:246
+train_mae:2717.317577081477
+test_mae 246 wavelets:2717.057894962306
+***********************
+num_wavelets:253
+train_mae:2716.1190565328197
+test_mae 253 wavelets:2715.869190940767
+***********************
+num_wavelets:260
+train_mae:2708.3650336389874
+ 35%|█████████████████████████████████▊                                                               | 37/106 [00:01<00:03, 22.09it/s]
+test_mae 260 wavelets:2708.1215598301246
+***********************
+num_wavelets:267
+train_mae:2711.9694534824507
+test_mae 267 wavelets:2711.7307086878745
+***********************
+num_wavelets:274
+train_mae:2707.324800401596
+test_mae 274 wavelets:2707.0979018343733
+***********************
+num_wavelets:281
+train_mae:2704.8382338466804
+test_mae 281 wavelets:2704.602578083678
+***********************
+num_wavelets:288
+train_mae:2707.507644568088
+test_mae 288 wavelets:2707.2789420824793
+***********************
+num_wavelets:295
+train_mae:2709.6177625322425
+test_mae 295 wavelets:2709.398514499128
+***********************
+num_wavelets:302
+train_mae:2705.118515070298
+test_mae 302 wavelets:2704.8838312257835
+***********************
+num_wavelets:309
+train_mae:2704.7927424519403
+test_mae 309 wavelets:2704.569836732549
+***********************
+num_wavelets:316
+train_mae:2709.4514540336845
+test_mae 316 wavelets:2709.2342302097845
+***********************
+num_wavelets:323
+train_mae:2707.6453429196818
+test_mae 323 wavelets:2707.4303698618314
+***********************
+num_wavelets:330
+train_mae:2705.145518995934
+test_mae 330 wavelets:2704.9445567625366
+***********************
+num_wavelets:337
+train_mae:2700.312800221637
+test_mae 337 wavelets:2700.1111044691374
+***********************
+num_wavelets:344
+train_mae:2701.4574854515404
+test_mae 344 wavelets:2701.273594215713
+***********************
+num_wavelets:351
+train_mae:2695.0383594526
+test_mae 351 wavelets:2694.8608615033054
+***********************
+num_wavelets:358
+train_mae:2687.8095414183254
+test_mae 358 wavelets:2687.6281910953558
+***********************
+num_wavelets:365
+train_mae:2689.6882802600962
+test_mae 365 wavelets:2689.509508702249
+***********************
+num_wavelets:372
+train_mae:2692.67885928769
+test_mae 372 wavelets:2692.5087557871802
+***********************
+num_wavelets:379
+train_mae:2684.941482464113
+test_mae 379 wavelets:2684.7662200123427
+***********************
+num_wavelets:386
+train_mae:2681.0081082539614
+test_mae 386 wavelets:2680.8356595368864
+***********************
+num_wavelets:393
+train_mae:2672.378767798586
+test_mae 393 wavelets:2672.198551070466
+***********************
+num_wavelets:400
+train_mae:2674.158181810212
+test_mae 400 wavelets:2673.9731987987116
+***********************
+num_wavelets:407
+train_mae:2672.7952216155472
+test_mae 407 wavelets:2672.6116916999226
+***********************
+num_wavelets:414
+train_mae:2677.922311703748
+test_mae 414 wavelets:2677.745951784663
+***********************
+num_wavelets:421
+train_mae:2668.999093071163
+test_mae 421 wavelets:2668.825813188065
+***********************
+num_wavelets:428
+train_mae:2664.359858962036
+test_mae 428 wavelets:2664.1861799522517
+***********************
+num_wavelets:435
+
+
+ 75%|█████████████████████████████████████████████████████████████████████████▏                       | 80/106 [00:05<00:03,  7.94it/s]
+test_mae 435 wavelets:2669.5222128801724
+***********************
+num_wavelets:442
+train_mae:2659.9885076794126
+test_mae 442 wavelets:2659.8067993561012
+***********************
+num_wavelets:449
+train_mae:2655.969235611474
+test_mae 449 wavelets:2655.785435273464
+***********************
+num_wavelets:456
+train_mae:2660.0670787640483
+test_mae 456 wavelets:2659.8887578370645
+***********************
+num_wavelets:463
+train_mae:2664.7194520695175
+test_mae 463 wavelets:2664.5484653818176
+***********************
+num_wavelets:470
+train_mae:2663.512235915301
+test_mae 470 wavelets:2663.3400800898153
+***********************
+num_wavelets:477
+train_mae:2664.7275238746133
+test_mae 477 wavelets:2664.5557496804604
+***********************
+num_wavelets:484
+train_mae:2660.462971769063
+test_mae 484 wavelets:2660.2893346797687
+***********************
+num_wavelets:491
+train_mae:2663.450822554194
+test_mae 491 wavelets:2663.283448206357
+***********************
+num_wavelets:498
+train_mae:2664.2857954866777
+test_mae 498 wavelets:2664.132989319999
+***********************
+num_wavelets:505
+train_mae:2663.3421564200844
+test_mae 505 wavelets:2663.189767154314
+***********************
+num_wavelets:512
+train_mae:2667.3368785938374
+test_mae 512 wavelets:2667.1861257040628
+***********************
+num_wavelets:519
+train_mae:2670.7143774492297
+test_mae 519 wavelets:2670.5585493847493
+***********************
+num_wavelets:526
+train_mae:2671.1523704168076
+test_mae 526 wavelets:2670.9895060570566
+***********************
+num_wavelets:533
+train_mae:2667.74501822404
+test_mae 533 wavelets:2667.581554218917
+***********************
+num_wavelets:540
+train_mae:2667.28841642051
+test_mae 540 wavelets:2667.1307288296994
+***********************
+num_wavelets:547
+train_mae:2665.4581284801425
+test_mae 547 wavelets:2665.3015850350866
+***********************
+num_wavelets:554
+train_mae:2668.3687872644714
+test_mae 554 wavelets:2668.2099271162133
+***********************
+
+ 89%|██████████████████████████████████████████████████████████████████████████████████████           | 94/106 [00:07<00:01,  6.60it/s]
+train_mae:2663.9125116639943
+test_mae 561 wavelets:2663.752584856754
+***********************
+num_wavelets:568
+train_mae:2667.3310333450463
+test_mae 568 wavelets:2667.1655930108923
+***********************
+num_wavelets:575
+train_mae:2666.13845537275
+test_mae 575 wavelets:2665.971210458413
+***********************
+num_wavelets:582
+train_mae:2666.1602721992895
+test_mae 582 wavelets:2665.9921832274986
+***********************
+num_wavelets:589
+train_mae:2666.693414560049
+test_mae 589 wavelets:2666.5249766930892
+***********************
+num_wavelets:596
+train_mae:2659.1492643587944
+test_mae 596 wavelets:2658.97371567139
+***********************
+num_wavelets:603
+train_mae:2658.4482743093645
+test_mae 603 wavelets:2658.2741901395207
+***********************
+num_wavelets:610
+train_mae:2655.458103126811
+test_mae 610 wavelets:2655.279740749832
+***********************
+num_wavelets:617
+train_mae:2655.435118079582
+test_mae 617 wavelets:2655.2514794549343
+***********************
+num_wavelets:624
+train_mae:2655.688637307701
+test_mae 624 wavelets:2655.5106883520502
+***********************
+num_wavelets:631
+train_mae:2655.997921448311
+test_mae 631 wavelets:2655.8228211602895
+***********************
+num_wavelets:638
+train_mae:2659.3020748003673
+test_mae 638 wavelets:2659.118224132504
+***********************
+num_wavelets:645
+train_mae:2657.230563683669
+test_mae 645 wavelets:2657.044385432031
+***********************
+num_wavelets:652
+train_mae:2659.128179008563
+test_mae 652 wavelets:2658.940905993909
+***********************
+num_wavelets:659
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 106/106 [00:09<00:00, 11.39it/s]
+test_mae 659 wavelets:2660.876750063955
+***********************
+num_wavelets:666
+train_mae:2660.4655145991715
+test_mae 666 wavelets:2660.2865741855385
+***********************
+num_wavelets:673
+train_mae:2657.457030491143
+test_mae 673 wavelets:2657.2835061530045
+***********************
+num_wavelets:680
+train_mae:2657.5281684211336
+test_mae 680 wavelets:2657.3571955420657
+***********************
+num_wavelets:687
+train_mae:2655.5360681872417
+test_mae 687 wavelets:2655.368195839086
+***********************
+num_wavelets:694
+train_mae:2654.7966127504405
+test_mae 694 wavelets:2654.6271219533382
+***********************
+num_wavelets:701
+train_mae:2654.129372433554
+test_mae 701 wavelets:2653.9588294264013
+***********************
+num_wavelets:708
+train_mae:2654.645789754173
+test_mae 708 wavelets:2654.474504076935
+***********************
+num_wavelets:715
+train_mae:2654.3675775649017
+test_mae 715 wavelets:2654.195874189715
+***********************
+num_wavelets:722
+train_mae:2654.3706869496837
+test_mae 722 wavelets:2654.1983508694525
+***********************
+num_wavelets:729
+train_mae:2654.324025887293
+test_mae 729 wavelets:2654.151322306966
+***********************
+num_wavelets:736
+train_mae:2654.4007869317243
+test_mae 736 wavelets:2654.2280310926253
+***********************
+Predicting normal RF...
+train_mae:5567.227897405842
+test_mae:5566.655464361303

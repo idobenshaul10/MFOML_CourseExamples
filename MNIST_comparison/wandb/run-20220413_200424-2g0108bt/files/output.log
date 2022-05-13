@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in <module>
+    main()
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 81, in main
+    predict_normal_RF(X_train, Y_train, X_test, Y_test)
+TypeError: predict_normal_RF() missing 1 required positional argument: 'y_test'

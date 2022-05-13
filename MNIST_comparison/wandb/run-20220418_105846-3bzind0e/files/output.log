@@ -1,0 +1,679 @@
+
+Training tree model...
+Predicting WF RF
+TOTAL train_mae:0.07153757099569852
+test_mae with all wavelets:0.41961391426967914
+num_wavelets:1
+train_mae:28.15491028412116
+test_mae 1 wavelets:28.262909442269315
+***********************
+num_wavelets:212
+train_mae:0.5826744092872431
+test_mae 212 wavelets:0.6378514029748618
+***********************
+num_wavelets:423
+train_mae:0.5265797909550276
+test_mae 423 wavelets:0.5779750576621975
+***********************
+num_wavelets:634
+train_mae:0.48739927426153123
+test_mae 634 wavelets:0.5548807201071694
+***********************
+num_wavelets:845
+
+  8%|█████                                                           | 8/101 [00:02<00:32,  2.90it/s]
+train_mae:0.4657027067711702
+test_mae 845 wavelets:0.547367834543305
+***********************
+num_wavelets:1056
+train_mae:0.44704587937530266
+test_mae 1056 wavelets:0.5400166824291032
+***********************
+num_wavelets:1267
+train_mae:0.4306749070426714
+test_mae 1267 wavelets:0.5326857353411575
+***********************
+num_wavelets:1478
+train_mae:0.4184147647216684
+test_mae 1478 wavelets:0.5268142449906643
+***********************
+num_wavelets:1689
+train_mae:0.40531762524741227
+test_mae 1689 wavelets:0.5212472449136241
+***********************
+num_wavelets:1900
+train_mae:0.3923256284524696
+test_mae 1900 wavelets:0.5137539183193064
+***********************
+num_wavelets:2111
+train_mae:0.3825635373107383
+test_mae 2111 wavelets:0.5092729927080438
+***********************
+num_wavelets:2322
+train_mae:0.3715959675637812
+test_mae 2322 wavelets:0.5047346494292123
+***********************
+
+ 12%|███████▍                                                       | 12/101 [00:05<00:58,  1.52it/s]
+train_mae:0.36028332913213423
+test_mae 2533 wavelets:0.4976702425900046
+***********************
+num_wavelets:2744
+train_mae:0.3494928603958605
+test_mae 2744 wavelets:0.4937338843095709
+***********************
+
+
+ 15%|█████████▎                                                     | 15/101 [00:07<01:16,  1.12it/s]
+train_mae:0.33870427201289366
+test_mae 2955 wavelets:0.49000052941487593
+***********************
+
+ 17%|██████████▌                                                    | 17/101 [00:10<01:26,  1.03s/it]
+train_mae:0.3306064661086588
+test_mae 3166 wavelets:0.48492652141804926
+***********************
+num_wavelets:3377
+train_mae:0.32232185922713
+test_mae 3377 wavelets:0.48343936029593365
+***********************
+
+ 20%|████████████▍                                                  | 20/101 [00:14<01:41,  1.25s/it]
+train_mae:0.3141606115906294
+test_mae 3588 wavelets:0.4843995285321932
+***********************
+num_wavelets:3799
+train_mae:0.305942774740982
+test_mae 3799 wavelets:0.47983070364974084
+***********************
+num_wavelets:4010
+train_mae:0.2987039823634994
+test_mae 4010 wavelets:0.4790323905808411
+***********************
+
+ 21%|█████████████                                                  | 21/101 [00:15<01:44,  1.31s/it]
+train_mae:0.2900897018140461
+test_mae 4221 wavelets:0.47187582790599375
+***********************
+
+ 23%|██████████████▎                                                | 23/101 [00:18<01:53,  1.45s/it]
+train_mae:0.28336425351814354
+test_mae 4432 wavelets:0.46806550623108356
+***********************
+num_wavelets:4643
+train_mae:0.2772307112259335
+test_mae 4643 wavelets:0.4702496077341133
+***********************
+
+ 24%|██████████████▉                                                | 24/101 [00:20<01:57,  1.52s/it]
+train_mae:0.271008658148925
+test_mae 4854 wavelets:0.46736712235129524
+***********************
+
+ 26%|████████████████▏                                              | 26/101 [00:24<02:05,  1.67s/it]
+train_mae:0.26514323167402204
+test_mae 5065 wavelets:0.4656941103826027
+***********************
+num_wavelets:5276
+train_mae:0.2588342719031839
+test_mae 5276 wavelets:0.46141709369019784
+***********************
+
+ 27%|████████████████▊                                              | 27/101 [00:26<02:09,  1.75s/it]
+train_mae:0.2519099111316049
+test_mae 5487 wavelets:0.45679780863452885
+***********************
+
+ 28%|█████████████████▍                                             | 28/101 [00:28<02:13,  1.83s/it]
+train_mae:0.24711070870199137
+test_mae 5698 wavelets:0.45351670819760165
+***********************
+num_wavelets:5909
+train_mae:0.24229943321128497
+test_mae 5909 wavelets:0.45438709130687144
+***********************
+
+
+ 30%|██████████████████▋                                            | 30/101 [00:32<02:19,  1.96s/it]
+train_mae:0.2373663905229385
+test_mae 6120 wavelets:0.45441427395912737
+***********************
+
+ 31%|███████████████████▎                                           | 31/101 [00:34<02:21,  2.02s/it]
+train_mae:0.2329715022445832
+test_mae 6331 wavelets:0.4536711437827888
+***********************
+
+ 32%|███████████████████▉                                           | 32/101 [00:36<02:25,  2.11s/it]
+train_mae:0.22919449072269896
+test_mae 6542 wavelets:0.45109233963493944
+***********************
+num_wavelets:6753
+train_mae:0.2236299147898035
+test_mae 6753 wavelets:0.45163342175844795
+***********************
+
+ 33%|████████████████████▌                                          | 33/101 [00:39<02:27,  2.17s/it]
+train_mae:0.2188854785276104
+test_mae 6964 wavelets:0.4494476278871861
+***********************
+
+ 34%|█████████████████████▏                                         | 34/101 [00:41<02:29,  2.24s/it]
+train_mae:0.21459868381273978
+test_mae 7175 wavelets:0.4501509237980892
+***********************
+
+ 35%|█████████████████████▊                                         | 35/101 [00:44<02:32,  2.32s/it]
+train_mae:0.2103849304950714
+test_mae 7386 wavelets:0.4490955907157312
+***********************
+
+
+ 37%|███████████████████████                                        | 37/101 [00:49<02:35,  2.43s/it]
+train_mae:0.20624128421753668
+test_mae 7597 wavelets:0.447372447238369
+***********************
+num_wavelets:7808
+train_mae:0.20234339585136074
+test_mae 7808 wavelets:0.44582416723714496
+***********************
+
+
+ 39%|████████████████████████▎                                      | 39/101 [00:54<02:40,  2.59s/it]
+train_mae:0.1972779732329846
+test_mae 8019 wavelets:0.44254420042075493
+***********************
+num_wavelets:8230
+train_mae:0.1934196659424968
+test_mae 8230 wavelets:0.44141997815127293
+***********************
+
+
+ 41%|█████████████████████████▌                                     | 41/101 [01:00<02:45,  2.76s/it]
+train_mae:0.1889816638437329
+test_mae 8441 wavelets:0.43932851191179706
+***********************
+
+ 42%|██████████████████████████▏                                    | 42/101 [01:03<02:47,  2.83s/it]
+train_mae:0.18491026934052915
+test_mae 8652 wavelets:0.4388461715972424
+***********************
+
+ 43%|██████████████████████████▊                                    | 43/101 [01:06<02:48,  2.91s/it]
+train_mae:0.18098869251459276
+test_mae 8863 wavelets:0.43788693959184444
+***********************
+num_wavelets:9074
+train_mae:0.17806919882715086
+test_mae 9074 wavelets:0.43610315012707096
+***********************
+
+
+ 45%|████████████████████████████                                   | 45/101 [01:12<02:49,  3.03s/it]
+train_mae:0.17508358458223414
+test_mae 9285 wavelets:0.43464687925862083
+***********************
+num_wavelets:9496
+train_mae:0.17192591687384146
+test_mae 9496 wavelets:0.43238485623456235
+***********************
+num_wavelets:9707
+
+
+ 48%|█████████████████████████████▉                                 | 48/101 [01:22<02:51,  3.24s/it]
+test_mae 9707 wavelets:0.43001566676170544
+***********************
+num_wavelets:9918
+train_mae:0.1648323484314345
+test_mae 9918 wavelets:0.42957850288607835
+***********************
+num_wavelets:10129
+
+ 49%|██████████████████████████████▌                                | 49/101 [01:26<02:52,  3.31s/it]
+test_mae 10129 wavelets:0.42897320392588745
+***********************
+num_wavelets:10340
+train_mae:0.15809508263857291
+test_mae 10340 wavelets:0.4287468467074289
+***********************
+num_wavelets:10551
+train_mae:0.15530159596038087
+test_mae 10551 wavelets:0.42772832849140474
+***********************
+
+ 50%|███████████████████████████████▊                               | 51/101 [01:33<02:52,  3.45s/it]
+train_mae:0.15187317669683478
+test_mae 10762 wavelets:0.42733586850957256
+***********************
+
+ 51%|████████████████████████████████▍                              | 52/101 [01:37<02:53,  3.55s/it]
+train_mae:0.14876980805961212
+test_mae 10973 wavelets:0.42645801622018237
+***********************
+num_wavelets:11184
+
+ 53%|█████████████████████████████████▋                             | 54/101 [01:44<02:52,  3.68s/it]
+test_mae 11184 wavelets:0.4261642589711434
+***********************
+num_wavelets:11395
+train_mae:0.14364615368201256
+test_mae 11395 wavelets:0.42677417810649365
+***********************
+
+ 54%|██████████████████████████████████▎                            | 55/101 [01:48<02:52,  3.75s/it]
+
+ 56%|███████████████████████████████████▌                           | 57/101 [01:56<02:51,  3.90s/it]
+test_mae 11606 wavelets:0.4266663736070304
+***********************
+num_wavelets:11817
+train_mae:0.13734209474625048
+test_mae 11817 wavelets:0.42574086965463087
+***********************
+num_wavelets:12028
+
+ 57%|████████████████████████████████████▏                          | 58/101 [02:01<02:52,  4.00s/it]
+test_mae 12028 wavelets:0.4246476818668219
+***********************
+num_wavelets:12239
+train_mae:0.13255082462511697
+test_mae 12239 wavelets:0.4237945663290926
+***********************
+num_wavelets:12450
+
+ 58%|████████████████████████████████████▊                          | 59/101 [02:05<02:50,  4.07s/it]
+test_mae 12450 wavelets:0.4230921468559923
+***********************
+num_wavelets:12661
+train_mae:0.1278581620042759
+test_mae 12661 wavelets:0.4222270423825221
+***********************
+
+ 60%|██████████████████████████████████████                         | 61/101 [02:13<02:47,  4.20s/it]
+train_mae:0.12537931221747609
+test_mae 12872 wavelets:0.4207269256994568
+***********************
+
+ 61%|██████████████████████████████████████▋                        | 62/101 [02:18<02:47,  4.29s/it]
+train_mae:0.1229121159544648
+test_mae 13083 wavelets:0.42104846132185403
+***********************
+num_wavelets:13294
+train_mae:0.12046698216987085
+test_mae 13294 wavelets:0.4214945275511331
+***********************
+
+
+ 63%|███████████████████████████████████████▉                       | 64/101 [02:27<02:45,  4.47s/it]
+train_mae:0.11840342309043504
+test_mae 13505 wavelets:0.4213513211426083
+***********************
+num_wavelets:13716
+
+ 65%|█████████████████████████████████████████▏                     | 66/101 [02:37<02:41,  4.62s/it]
+test_mae 13716 wavelets:0.4208804766620806
+***********************
+num_wavelets:13927
+train_mae:0.11399775835896023
+test_mae 13927 wavelets:0.4218313444019527
+***********************
+ 66%|█████████████████████████████████████████▊                     | 67/101 [02:46<01:24,  2.48s/it]
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 131, in <module>
+    main(seed=i, trees=trees)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 103, in main
+    predict_WF_RF(rf_model, X_train, Y_train, X_test, Y_test)
+  File "/home/ido/projects/MNIST_comparison/train_RF_wine.py", line 69, in predict_WF_RF
+    X_pred, _ = rf_model.predict(X, m=num_wavelets, paths=train_paths)
+  File "/home/ido/projects/MNIST_comparison/WaveletForest.py", line 311, in predict
+    pruned[:, cur_sorted_norms] = paths[:, cur_sorted_norms]
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 332, in __setitem__
+    IndexMixin.__setitem__(self, key, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_index.py", line 137, in __setitem__
+    self._set_arrayXarray_sparse(i, j, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 320, in _set_arrayXarray_sparse
+    self._set_arrayXarray(row, col, x)
+  File "/home/ido/miniconda3/envs/sparsity_probe_env/lib/python3.9/site-packages/scipy/sparse/_lil.py", line 304, in _set_arrayXarray
+    _csparsetools.lil_fancy_set(self.shape[0], self.shape[1],
+KeyboardInterrupt

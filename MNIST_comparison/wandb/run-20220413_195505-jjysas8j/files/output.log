@@ -1,0 +1,85 @@
+
+100%|██████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 101.77it/s]
+Training tree model...
+Predicting WF RF
+TOTAL train_mae:0.159569009748589
+num_wavelets:0
+train_mae:202604.0
+test_mae 0 wavelets:22296.0
+***********************
+num_wavelets:1
+train_mae:4453.878057123311
+test_mae 1 wavelets:499.9086523930491
+***********************
+num_wavelets:2
+train_mae:4453.878057123311
+test_mae 2 wavelets:499.9086523930491
+***********************
+num_wavelets:3
+train_mae:5867.506945038521
+test_mae 3 wavelets:676.9502769976035
+***********************
+num_wavelets:4
+train_mae:5867.506945038521
+test_mae 4 wavelets:676.9502769976035
+***********************
+num_wavelets:5
+train_mae:5867.506945038521
+test_mae 5 wavelets:676.9502769976035
+***********************
+num_wavelets:6
+train_mae:5867.506945038521
+test_mae 6 wavelets:676.9502769976035
+***********************
+num_wavelets:7
+train_mae:5867.506945038521
+test_mae 7 wavelets:676.9502769976035
+***********************
+num_wavelets:8
+train_mae:5901.170096390433
+test_mae 8 wavelets:631.4447553981008
+***********************
+num_wavelets:9
+train_mae:5901.170096390433
+test_mae 9 wavelets:631.4447553981008
+***********************
+num_wavelets:10
+train_mae:5149.102733083835
+test_mae 10 wavelets:580.1570374483015
+***********************
+num_wavelets:11
+train_mae:5149.102733083835
+test_mae 11 wavelets:580.1570374483015
+***********************
+num_wavelets:12
+train_mae:5149.102733083835
+test_mae 12 wavelets:580.1570374483015
+***********************
+num_wavelets:13
+train_mae:5149.102733083835
+test_mae 13 wavelets:580.1570374483015
+***********************
+num_wavelets:14
+train_mae:5149.102733083835
+test_mae 14 wavelets:580.1570374483015
+***********************
+num_wavelets:15
+train_mae:7445.242423230977
+test_mae 15 wavelets:846.9727646946681
+***********************
+num_wavelets:16
+train_mae:7445.242423230977
+test_mae 16 wavelets:846.9727646946681
+***********************
+num_wavelets:17
+train_mae:7445.242423230977
+test_mae 17 wavelets:846.9727646946681
+***********************
+num_wavelets:18
+train_mae:7445.242423230977
+test_mae 18 wavelets:846.9727646946681
+***********************
+num_wavelets:19
+train_mae:10051.073114776205
+test_mae 19 wavelets:1071.1843142065338
+***********************

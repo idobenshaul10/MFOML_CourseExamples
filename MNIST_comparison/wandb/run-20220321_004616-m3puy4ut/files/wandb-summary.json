@@ -1,0 +1,1 @@
+{"Normal_RF_train_acc": 0.9359333333333333, "Normal_RF_test_acc": 0.9161, "_timestamp": 1647816784, "_runtime": 408, "_step": 20, "num_wavelets": 49000, "WF_RF_test_acc": 0.9168, "_wandb": {"runtime": 409}}

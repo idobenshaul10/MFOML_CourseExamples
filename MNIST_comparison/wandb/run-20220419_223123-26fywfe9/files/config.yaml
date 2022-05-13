@@ -1,0 +1,49 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    code_path: code/train_denoiser.py
+    framework: xgboost
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    python_version: 3.9.7
+    start_time: 1650396683
+    t:
+      1:
+      - 1
+      - 5
+      - 6
+      - 41
+      2:
+      - 1
+      - 5
+      - 6
+      - 41
+      3:
+      - 2
+      - 15
+      4: 3.9.7
+      5: 0.12.11
+      8:
+      - 2
+      - 5
+depth:
+  desc: null
+  value: 8
+mode:
+  desc: null
+  value: regression
+noise_level:
+  desc: null
+  value: 0.3
+seed:
+  desc: null
+  value: 0
+state:
+  desc: null
+  value: 2000
+trees:
+  desc: null
+  value: 2

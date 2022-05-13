@@ -1,0 +1,760 @@
+2022-04-18 10:22:29,193 INFO    MainThread:14257 [internal.py:wandb_internal():92] W&B internal server running at pid: 14257, started at: 2022-04-18 10:22:29.193384
+2022-04-18 10:22:29,195 INFO    WriterThread:14257 [datastore.py:open_for_write():77] open: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/run-3kzkppr7.wandb
+2022-04-18 10:22:29,196 DEBUG   SenderThread:14257 [sender.py:send():235] send: header
+2022-04-18 10:22:29,196 DEBUG   SenderThread:14257 [sender.py:send():235] send: run
+2022-04-18 10:22:29,526 INFO    SenderThread:14257 [dir_watcher.py:__init__():169] watching files in: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files
+2022-04-18 10:22:29,526 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: check_version
+2022-04-18 10:22:29,527 INFO    SenderThread:14257 [sender.py:_start_run_threads():812] run started: 3kzkppr7 with start time 1650266548
+2022-04-18 10:22:29,527 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:29,527 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:29,527 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: check_version
+2022-04-18 10:22:29,819 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: run_start
+2022-04-18 10:22:29,822 DEBUG   HandlerThread:14257 [meta.py:__init__():37] meta init
+2022-04-18 10:22:29,822 DEBUG   HandlerThread:14257 [meta.py:__init__():51] meta init done
+2022-04-18 10:22:29,822 DEBUG   HandlerThread:14257 [meta.py:probe():211] probe
+2022-04-18 10:22:29,828 DEBUG   HandlerThread:14257 [git.py:repo():33] git repository is invalid
+2022-04-18 10:22:29,828 DEBUG   HandlerThread:14257 [meta.py:_save_code():89] save code
+2022-04-18 10:22:29,828 DEBUG   HandlerThread:14257 [meta.py:_save_code():110] save code done
+2022-04-18 10:22:29,828 DEBUG   HandlerThread:14257 [meta.py:_save_pip():55] save pip
+2022-04-18 10:22:29,829 DEBUG   HandlerThread:14257 [meta.py:_save_pip():69] save pip done
+2022-04-18 10:22:29,829 DEBUG   HandlerThread:14257 [meta.py:_save_conda():76] save conda
+2022-04-18 10:22:30,528 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/conda-environment.yaml
+2022-04-18 10:22:30,529 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/requirements.txt
+2022-04-18 10:22:30,529 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/code/train_RF_wine.py
+2022-04-18 10:22:30,529 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:30,529 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/code
+2022-04-18 10:22:33,296 DEBUG   HandlerThread:14257 [meta.py:_save_conda():86] save conda done
+2022-04-18 10:22:33,296 DEBUG   HandlerThread:14257 [meta.py:probe():249] probe done
+2022-04-18 10:22:33,330 DEBUG   SenderThread:14257 [sender.py:send():235] send: files
+2022-04-18 10:22:33,330 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-18 10:22:33,330 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file code/train_RF_wine.py with policy now
+2022-04-18 10:22:33,337 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:22:33,337 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:22:33,528 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/conda-environment.yaml
+2022-04-18 10:22:33,528 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-metadata.json
+2022-04-18 10:22:33,528 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:33,709 DEBUG   SenderThread:14257 [sender.py:send():235] send: telemetry
+2022-04-18 10:22:33,709 DEBUG   SenderThread:14257 [sender.py:send():235] send: config
+2022-04-18 10:22:33,710 DEBUG   SenderThread:14257 [sender.py:send():235] send: config
+2022-04-18 10:22:34,156 INFO    Thread-12 :14257 [upload_job.py:push():137] Uploaded file /tmp/tmpbnmyug0cwandb/1744z7kv-code/train_RF_wine.py
+2022-04-18 10:22:34,157 INFO    Thread-11 :14257 [upload_job.py:push():137] Uploaded file /tmp/tmpbnmyug0cwandb/2buwcd6u-wandb-metadata.json
+2022-04-18 10:22:36,528 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:36,961 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:36,962 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:36,962 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:36,962 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:36,992 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:36,993 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:36,993 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:36,994 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:37,050 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:37,051 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:37,051 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:37,052 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:37,146 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:37,147 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:37,147 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:37,148 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:37,328 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:37,329 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:37,329 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:37,330 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:37,487 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:37,488 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:37,488 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:37,488 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:37,529 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:37,676 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:37,677 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:37,677 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:37,677 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:37,896 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:37,897 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:37,897 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:37,897 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:38,158 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:38,158 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:38,159 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:38,159 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:38,452 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:38,453 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:38,453 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:38,454 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:38,529 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:38,529 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:38,778 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:38,779 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:38,779 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:38,779 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:39,134 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:39,135 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:39,135 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:39,135 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:39,527 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:39,528 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:39,528 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:39,528 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:39,529 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:39,949 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:39,950 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:39,950 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:39,950 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:40,459 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:40,460 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:40,460 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:40,460 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:40,530 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:40,530 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:40,948 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:40,948 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:40,949 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:40,949 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:41,466 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:41,467 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:41,467 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:41,468 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:41,530 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:42,019 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:42,020 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:42,022 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:42,022 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:42,530 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:42,530 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:42,603 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:42,604 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:42,604 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:42,605 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:43,217 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:43,218 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:43,218 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:43,218 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:43,531 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:43,869 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:43,870 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:43,870 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:43,871 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:44,531 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:44,557 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:44,558 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:44,558 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:44,559 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:45,281 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:45,282 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:45,283 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:45,283 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:45,531 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:45,532 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:46,021 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:46,022 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:46,022 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:46,022 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:46,532 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:46,859 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:46,860 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:46,860 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:46,860 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:47,532 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:47,532 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:47,671 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:47,672 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:47,672 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:47,673 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:48,517 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:48,518 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:48,518 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:48,519 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:48,532 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:49,264 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:22:49,264 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:22:49,398 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:49,533 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:49,586 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:49,586 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:49,587 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:50,302 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:50,303 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:50,303 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:50,303 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:50,533 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:51,248 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:51,249 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:51,251 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:51,251 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:51,533 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:51,533 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:52,228 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:52,229 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:52,229 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:52,229 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:52,534 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:53,240 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:53,241 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:53,241 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:53,241 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:53,534 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:53,534 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:54,270 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:54,271 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:54,271 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:54,271 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:54,534 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:55,359 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:55,359 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:55,360 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:55,360 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:55,535 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:55,535 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:56,507 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:56,508 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:56,508 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:56,508 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:56,535 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:57,535 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:22:57,650 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:57,651 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:57,651 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:57,651 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:58,015 DEBUG   SenderThread:14257 [sender.py:send():235] send: stats
+2022-04-18 10:22:58,536 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:22:58,807 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:22:58,808 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:22:58,808 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:22:58,809 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:22:59,536 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:00,026 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:00,413 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:00,414 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:00,414 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:00,536 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:00,536 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/config.yaml
+2022-04-18 10:23:00,536 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:01,256 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:01,257 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:01,257 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:01,257 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:01,536 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:02,510 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:02,511 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:02,511 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:02,513 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:02,537 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:02,537 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:03,797 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:03,798 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:03,798 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:03,799 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:04,537 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:05,101 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:05,102 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:05,103 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:05,103 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:05,162 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:23:05,162 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:23:05,538 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:05,538 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:06,473 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:06,474 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:06,474 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:06,474 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:06,538 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:07,883 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:07,884 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:07,884 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:07,884 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:08,539 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:08,539 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:09,349 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:09,350 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:09,350 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:09,350 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:09,539 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:10,812 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:10,813 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:10,813 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:10,814 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:11,540 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:11,540 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:12,307 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:12,308 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:12,308 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:12,309 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:12,540 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:13,825 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:13,826 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:13,826 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:13,827 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:14,541 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:14,541 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:15,377 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:15,378 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:15,378 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:15,378 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:15,541 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:16,979 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:16,980 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:16,980 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:16,980 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:17,541 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:17,542 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:18,610 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:18,610 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:18,611 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:18,611 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:19,542 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:20,278 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:20,279 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:20,279 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:20,279 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:20,542 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:20,542 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:21,722 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:23:21,722 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:23:21,979 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:22,025 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:22,025 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:22,027 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:22,542 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:22,543 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:23,684 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:23,685 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:23,685 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:23,686 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:24,543 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:25,517 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:25,518 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:25,518 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:25,518 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:25,543 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:25,544 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:27,307 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:27,309 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:27,309 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:27,310 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:27,544 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:27,544 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:28,208 DEBUG   SenderThread:14257 [sender.py:send():235] send: stats
+2022-04-18 10:23:29,154 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:29,155 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:29,155 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:29,155 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:29,544 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:31,030 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:31,031 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:31,031 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:31,032 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:31,545 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:31,545 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:32,933 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:32,934 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:32,934 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:32,935 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:33,545 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:33,546 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:34,844 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:34,845 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:34,847 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:34,847 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:35,546 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:36,547 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:36,806 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:36,807 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:36,807 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:36,808 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:37,547 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:38,483 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:23:38,483 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:23:38,547 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:38,787 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:39,309 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:39,310 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:39,311 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:39,548 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:40,784 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:40,785 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:40,785 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:40,786 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:41,548 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:41,549 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:42,831 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:42,832 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:42,832 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:42,833 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:43,549 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:43,549 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:44,938 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:44,939 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:44,939 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:44,940 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:45,550 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:45,550 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:47,079 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:47,080 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:47,081 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:47,081 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:47,550 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:47,550 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:49,240 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:49,241 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:49,241 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:49,241 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:49,551 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:49,551 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:51,389 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:51,390 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:51,391 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:51,391 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:51,551 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:51,552 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:53,582 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:53,583 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:53,583 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:53,583 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:54,552 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:54,553 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:55,495 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:23:55,495 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:23:55,844 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:55,844 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:55,845 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:55,845 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:56,553 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:56,553 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:23:58,152 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:23:58,153 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:23:58,153 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:23:58,154 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:23:58,411 DEBUG   SenderThread:14257 [sender.py:send():235] send: stats
+2022-04-18 10:23:58,553 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:23:58,554 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:00,491 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:00,492 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:00,492 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:00,493 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:00,554 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:00,554 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:02,555 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:02,857 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:02,858 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:02,858 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:02,858 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:03,555 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:05,280 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:05,281 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:05,281 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:05,281 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:05,555 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:05,556 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:07,556 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:07,762 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:07,763 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:07,763 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:07,764 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:08,556 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:10,303 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:10,303 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:10,304 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:10,304 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:10,557 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:10,557 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:12,404 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:24:12,404 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:24:12,557 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:12,776 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:12,777 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:12,777 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:12,779 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:13,557 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:15,264 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:15,265 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:15,265 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:15,265 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:15,558 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:15,558 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:17,559 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:17,784 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:17,785 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:17,785 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:17,785 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:18,559 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:20,329 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:20,330 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:20,330 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:20,330 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:20,559 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:20,560 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:22,976 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:22,977 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:22,977 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:22,979 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:23,561 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:23,561 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:25,561 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:25,639 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:25,640 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:25,640 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:25,641 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:26,561 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:27,935 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:24:27,935 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:24:28,342 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:28,389 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:28,390 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:28,390 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:28,562 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:28,562 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:28,605 DEBUG   SenderThread:14257 [sender.py:send():235] send: stats
+2022-04-18 10:24:31,058 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:31,059 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:31,059 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:31,060 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:31,563 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:31,563 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:33,564 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:33,773 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:33,774 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:33,774 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:33,775 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:34,564 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:36,565 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:36,609 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:36,610 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:36,610 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:36,611 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:37,565 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:39,386 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:39,387 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:39,387 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:39,387 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:39,565 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:39,566 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:42,195 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:42,196 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:42,196 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:42,196 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:42,566 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:42,567 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:44,583 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:24:44,584 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:24:45,029 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:45,029 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:45,030 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:45,030 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:45,567 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:45,567 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:47,568 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:47,886 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:47,887 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:47,887 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:47,887 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:48,568 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:50,569 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:50,809 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:50,810 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:50,810 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:50,810 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:51,569 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:53,569 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:53,781 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:53,782 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:53,782 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:53,783 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:54,570 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:56,570 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:56,782 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:56,783 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:56,783 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:56,783 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:24:57,571 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:24:58,794 DEBUG   SenderThread:14257 [sender.py:send():235] send: stats
+2022-04-18 10:24:59,571 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:24:59,888 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:24:59,889 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:24:59,889 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:24:59,889 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:00,572 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:02,472 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:25:02,473 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:25:02,572 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:02,946 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:25:02,947 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:25:02,947 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:25:02,947 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:03,573 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:05,573 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:06,010 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:25:06,011 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:25:06,011 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:25:06,012 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:06,574 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:09,156 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:25:09,157 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:25:09,158 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:25:09,158 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:09,574 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:09,575 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:12,356 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:25:12,357 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:25:12,357 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:25:12,358 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:12,575 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:12,576 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:15,576 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:15,618 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:25:15,619 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:25:15,619 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:25:15,619 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:16,577 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:18,354 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 10:25:18,354 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 10:25:18,577 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:18,864 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:25:18,865 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:25:18,865 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:25:18,867 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:19,577 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:22,115 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:25:22,116 DEBUG   SenderThread:14257 [sender.py:send():235] send: history
+2022-04-18 10:25:22,117 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:25:22,117 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:22,128 DEBUG   SenderThread:14257 [sender.py:send():235] send: telemetry
+2022-04-18 10:25:22,129 DEBUG   SenderThread:14257 [sender.py:send():235] send: telemetry
+2022-04-18 10:25:22,129 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-18 10:25:22,579 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:22,579 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:24,579 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:25,122 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:25,122 DEBUG   SenderThread:14257 [sender.py:send():235] send: exit
+2022-04-18 10:25:25,122 INFO    SenderThread:14257 [sender.py:send_exit():371] handling exit code: 0
+2022-04-18 10:25:25,122 INFO    SenderThread:14257 [sender.py:send_exit():373] handling runtime: 175
+2022-04-18 10:25:25,122 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:25,122 INFO    SenderThread:14257 [sender.py:send_exit():379] send defer
+2022-04-18 10:25:25,123 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:25,123 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:25,123 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-18 10:25:25,123 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:25,123 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-18 10:25:25,123 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 1
+2022-04-18 10:25:25,123 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:25,124 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-18 10:25:25,165 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:25,166 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-18 10:25:25,166 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 2
+2022-04-18 10:25:25,166 DEBUG   SenderThread:14257 [sender.py:send():235] send: stats
+2022-04-18 10:25:25,166 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:25,166 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-18 10:25:25,166 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:25,167 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-18 10:25:25,167 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 3
+2022-04-18 10:25:25,167 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:25,167 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-18 10:25:25,167 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:25,167 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-18 10:25:25,167 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 4
+2022-04-18 10:25:25,167 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:25,167 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-18 10:25:25,168 DEBUG   SenderThread:14257 [sender.py:send():235] send: summary
+2022-04-18 10:25:25,168 INFO    SenderThread:14257 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 10:25:25,168 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:25,168 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-18 10:25:25,168 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 5
+2022-04-18 10:25:25,168 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:25,168 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-18 10:25:25,169 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:25,169 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-18 10:25:25,224 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:25,519 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 6
+2022-04-18 10:25:25,519 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:25,520 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:25,520 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-18 10:25:25,520 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:25,520 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-18 10:25:25,520 INFO    SenderThread:14257 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-18 10:25:25,580 INFO    Thread-7  :14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:25,580 INFO    SenderThread:14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/config.yaml
+2022-04-18 10:25:25,580 INFO    SenderThread:14257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:25,580 INFO    SenderThread:14257 [dir_watcher.py:finish():313] scan: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files
+2022-04-18 10:25:25,580 INFO    SenderThread:14257 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-metadata.json wandb-metadata.json
+2022-04-18 10:25:25,580 INFO    SenderThread:14257 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log output.log
+2022-04-18 10:25:25,580 INFO    SenderThread:14257 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/config.yaml config.yaml
+2022-04-18 10:25:25,581 INFO    SenderThread:14257 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/conda-environment.yaml conda-environment.yaml
+2022-04-18 10:25:25,584 INFO    SenderThread:14257 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json wandb-summary.json
+2022-04-18 10:25:25,587 INFO    SenderThread:14257 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/requirements.txt requirements.txt
+2022-04-18 10:25:25,589 INFO    SenderThread:14257 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/code/train_RF_wine.py code/train_RF_wine.py
+2022-04-18 10:25:25,589 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 7
+2022-04-18 10:25:25,593 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:25,593 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-18 10:25:25,594 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:25,594 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-18 10:25:25,594 INFO    SenderThread:14257 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-18 10:25:25,621 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:25,621 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:25,722 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:25,722 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:25,823 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:25,823 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:25,925 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:25,926 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,030 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,030 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,131 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,131 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,232 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,233 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,334 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,334 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,411 INFO    Thread-16 :14257 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/wandb-summary.json
+2022-04-18 10:25:26,413 INFO    Thread-14 :14257 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/config.yaml
+2022-04-18 10:25:26,425 INFO    Thread-17 :14257 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/requirements.txt
+2022-04-18 10:25:26,434 INFO    Thread-15 :14257 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/conda-environment.yaml
+2022-04-18 10:25:26,435 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,435 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,536 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,536 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,637 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,637 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,738 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,739 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,839 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,840 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:26,941 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:26,941 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:27,042 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:27,042 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:27,143 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:27,143 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:27,168 INFO    Thread-13 :14257 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/files/output.log
+2022-04-18 10:25:27,244 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:27,244 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:27,345 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:27,345 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:27,369 INFO    Thread-6  :14257 [sender.py:transition_state():392] send defer: 8
+2022-04-18 10:25:27,369 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:27,369 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-18 10:25:27,369 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:27,369 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-18 10:25:27,446 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:28,482 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 9
+2022-04-18 10:25:28,482 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:28,483 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:28,483 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-18 10:25:28,483 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:28,483 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-18 10:25:28,483 INFO    SenderThread:14257 [sender.py:transition_state():392] send defer: 10
+2022-04-18 10:25:28,484 DEBUG   SenderThread:14257 [sender.py:send():235] send: final
+2022-04-18 10:25:28,484 DEBUG   SenderThread:14257 [sender.py:send():235] send: footer
+2022-04-18 10:25:28,484 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 10:25:28,484 INFO    HandlerThread:14257 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-18 10:25:28,484 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: defer
+2022-04-18 10:25:28,484 INFO    SenderThread:14257 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-18 10:25:28,584 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 10:25:28,584 DEBUG   SenderThread:14257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 10:25:28,584 INFO    SenderThread:14257 [file_pusher.py:join():150] waiting for file pusher
+2022-04-18 10:25:29,299 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-18 10:25:29,300 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-18 10:25:29,301 DEBUG   HandlerThread:14257 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-18 10:25:29,301 INFO    HandlerThread:14257 [handler.py:finish():778] shutting down handler
+2022-04-18 10:25:29,484 INFO    WriterThread:14257 [datastore.py:close():281] close: /home/ido/projects/MNIST_comparison/wandb/run-20220418_102220-3kzkppr7/run-3kzkppr7.wandb
+2022-04-18 10:25:30,198 INFO    SenderThread:14257 [sender.py:finish():1078] shutting down sender
+2022-04-18 10:25:30,198 INFO    SenderThread:14257 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-18 10:25:30,198 INFO    SenderThread:14257 [file_pusher.py:join():150] waiting for file pusher
+2022-04-18 10:25:30,200 INFO    MainThread:14257 [internal.py:handle_exit():82] Internal process exited

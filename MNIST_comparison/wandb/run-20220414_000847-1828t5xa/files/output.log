@@ -1,0 +1,214 @@
+/home/ido/projects/MNIST_comparison/WaveletForest.py:147: RuntimeWarning: invalid value encountered in power
+  norms = np.multiply(norms, np.power(volumes, 1 / self.power))
+ 36%|███████████████████████████████████▋                                                               | 18/50 [00:00<00:02, 15.17it/s]
+Training tree model...
+Predicting WF RF
+TOTAL train_mae:0.29132006908504227
+test_mae with all wavelets:0.88
+num_wavelets:50
+train_mae:34.70680409205697
+test_mae 50 wavelets:34.476769782027944
+***********************
+num_wavelets:92
+train_mae:34.61708460123376
+test_mae 92 wavelets:34.514365306053946
+***********************
+num_wavelets:134
+train_mae:34.55343523853819
+test_mae 134 wavelets:34.39424895987564
+***********************
+num_wavelets:176
+train_mae:0.6710383725234655
+test_mae 176 wavelets:0.7887654038453641
+***********************
+num_wavelets:218
+train_mae:0.6641909054939776
+test_mae 218 wavelets:0.7932913880658674
+***********************
+num_wavelets:260
+train_mae:0.668964233924113
+test_mae 260 wavelets:0.8061228215076095
+***********************
+num_wavelets:302
+train_mae:0.63337529455147
+test_mae 302 wavelets:0.7859001235829504
+***********************
+num_wavelets:344
+train_mae:0.6144493837390611
+test_mae 344 wavelets:0.7729944635828657
+***********************
+num_wavelets:386
+train_mae:0.6128153152977387
+test_mae 386 wavelets:0.7787710676433313
+***********************
+num_wavelets:428
+train_mae:0.610667801437375
+test_mae 428 wavelets:0.7838376354512723
+***********************
+num_wavelets:470
+train_mae:0.5986431085086429
+test_mae 470 wavelets:0.7725165745412125
+***********************
+num_wavelets:512
+train_mae:0.5817259161930673
+test_mae 512 wavelets:0.7647370869027187
+***********************
+num_wavelets:554
+train_mae:0.5775383286784167
+test_mae 554 wavelets:0.7599861904107778
+***********************
+num_wavelets:596
+train_mae:0.5758993232532297
+test_mae 596 wavelets:0.7876081718796221
+***********************
+num_wavelets:638
+train_mae:0.5728946907282982
+test_mae 638 wavelets:0.793817718886845
+***********************
+num_wavelets:680
+train_mae:0.560406676250503
+test_mae 680 wavelets:0.799001688344682
+***********************
+num_wavelets:722
+train_mae:0.5389354827458438
+test_mae 722 wavelets:0.788167394909522
+***********************
+num_wavelets:764
+train_mae:0.5318010682509537
+test_mae 764 wavelets:0.8052510652141567
+***********************
+num_wavelets:806
+train_mae:0.5252139706532405
+test_mae 806 wavelets:0.8033398080879015
+***********************
+
+ 66%|█████████████████████████████████████████████████████████████████▎                                 | 33/50 [00:03<00:03,  5.37it/s]
+train_mae:0.5158090589671724
+test_mae 848 wavelets:0.7936829138501322
+***********************
+num_wavelets:890
+train_mae:0.5143417329913405
+test_mae 890 wavelets:0.7955179768308228
+***********************
+num_wavelets:932
+train_mae:0.5126486080675435
+test_mae 932 wavelets:0.8008466989685924
+***********************
+num_wavelets:974
+train_mae:0.5050173815022942
+test_mae 974 wavelets:0.7897200867386488
+***********************
+num_wavelets:1016
+train_mae:0.5018781269797977
+test_mae 1016 wavelets:0.7887173394511835
+***********************
+num_wavelets:1058
+train_mae:0.49956808740507813
+test_mae 1058 wavelets:0.7870831355245363
+***********************
+num_wavelets:1100
+train_mae:0.49561205185649915
+test_mae 1100 wavelets:0.7889856881601148
+***********************
+num_wavelets:1142
+train_mae:0.4905776902173125
+test_mae 1142 wavelets:0.7897716578238747
+***********************
+num_wavelets:1184
+train_mae:0.48926660605774935
+test_mae 1184 wavelets:0.7891710910438988
+***********************
+num_wavelets:1226
+train_mae:0.4919817609193911
+test_mae 1226 wavelets:0.8081731699455676
+***********************
+num_wavelets:1268
+train_mae:0.47741322355825855
+test_mae 1268 wavelets:0.8072788158462908
+***********************
+num_wavelets:1310
+train_mae:0.46741470627939447
+test_mae 1310 wavelets:0.8078052630868269
+***********************
+num_wavelets:1352
+train_mae:0.46803034555135564
+test_mae 1352 wavelets:0.8096655290263461
+***********************
+num_wavelets:1394
+train_mae:0.45764026005474223
+test_mae 1394 wavelets:0.8073332208511936
+***********************
+num_wavelets:1436
+train_mae:0.40781136224999204
+test_mae 1436 wavelets:0.7757724522542226
+***********************
+num_wavelets:1478
+train_mae:0.4023856822690555
+test_mae 1478 wavelets:0.7826729220250405
+***********************
+num_wavelets:1520
+train_mae:0.39746000004431653
+test_mae 1520 wavelets:0.7899397953695114
+***********************
+num_wavelets:1562
+train_mae:0.39345284790624846
+test_mae 1562 wavelets:0.7973108231503605
+***********************
+num_wavelets:1604
+train_mae:0.38968181148895265
+test_mae 1604 wavelets:0.8094160517204083
+***********************
+num_wavelets:1646
+train_mae:0.382467860139541
+test_mae 1646 wavelets:0.8084778352339981
+***********************
+num_wavelets:1688
+train_mae:0.37819741531399803
+test_mae 1688 wavelets:0.8121875275295004
+***********************
+
+
+ 96%|███████████████████████████████████████████████████████████████████████████████████████████████    | 48/50 [00:07<00:00,  3.24it/s]
+train_mae:0.37087540283074294
+test_mae 1730 wavelets:0.8166234976709935
+***********************
+num_wavelets:1772
+train_mae:0.3650642110613291
+test_mae 1772 wavelets:0.8183283063768081
+***********************
+num_wavelets:1814
+train_mae:0.3610209778105673
+test_mae 1814 wavelets:0.8306165615034884
+***********************
+num_wavelets:1856
+train_mae:0.35757000349297696
+test_mae 1856 wavelets:0.8315312641032235
+***********************
+num_wavelets:1898
+train_mae:0.34901669021182313
+test_mae 1898 wavelets:0.8301334082624864
+***********************
+num_wavelets:1940
+train_mae:0.34655034277318336
+test_mae 1940 wavelets:0.8583881766688453
+***********************
+num_wavelets:1982
+train_mae:0.34397627450499807
+test_mae 1982 wavelets:0.8652849002009099
+***********************
+num_wavelets:2024
+train_mae:0.3363179936701253
+test_mae 2024 wavelets:0.8680930248483749
+***********************
+num_wavelets:2066
+train_mae:0.33256381185363365
+test_mae 2066 wavelets:0.8739913816823363
+***********************
+num_wavelets:2108
+train_mae:0.3291666845336657
+test_mae 2108 wavelets:0.8709199619088538
+***********************
+Predicting normal RF...
+train_mae:1.4253893516841725
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:08<00:00,  6.24it/s]

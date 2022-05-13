@@ -1,0 +1,28 @@
+2022-04-14 00:26:20,848 INFO    MainThread:40362 [wandb_setup.py:_flush():75] Loading settings from /home/ido/.config/wandb/settings
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [wandb_setup.py:_flush():75] Loading settings from /home/ido/projects/MNIST_comparison/wandb/settings
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'train_RF_wine.py', 'program': '/home/ido/projects/MNIST_comparison/train_RF_wine.py'}
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [wandb_init.py:_log_setup():405] Logging user logs to /home/ido/projects/MNIST_comparison/wandb/run-20220414_002620-okymr7m7/logs/debug.log
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [wandb_init.py:_log_setup():406] Logging internal logs to /home/ido/projects/MNIST_comparison/wandb/run-20220414_002620-okymr7m7/logs/debug-internal.log
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [wandb_init.py:init():439] calling init triggers
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {}
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [wandb_init.py:init():492] starting backend
+2022-04-14 00:26:20,849 INFO    MainThread:40362 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-04-14 00:26:20,858 INFO    MainThread:40362 [backend.py:ensure_launched():219] starting backend process...
+2022-04-14 00:26:20,860 INFO    MainThread:40362 [backend.py:ensure_launched():224] started backend process with pid: 40381
+2022-04-14 00:26:20,860 INFO    MainThread:40362 [wandb_init.py:init():501] backend started and connected
+2022-04-14 00:26:20,863 INFO    MainThread:40362 [wandb_init.py:init():565] updated telemetry
+2022-04-14 00:26:20,864 INFO    MainThread:40362 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-04-14 00:26:21,662 INFO    MainThread:40362 [wandb_run.py:_on_init():1759] communicating current version
+2022-04-14 00:26:21,990 INFO    MainThread:40362 [wandb_run.py:_on_init():1763] got version response upgrade_message: "wandb version 0.12.14 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-04-14 00:26:21,990 INFO    MainThread:40362 [wandb_init.py:init():625] starting run threads in backend
+2022-04-14 00:26:25,479 INFO    MainThread:40362 [wandb_run.py:_console_start():1733] atexit reg
+2022-04-14 00:26:25,479 INFO    MainThread:40362 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.REDIRECT
+2022-04-14 00:26:25,479 INFO    MainThread:40362 [wandb_run.py:_redirect():1611] Redirecting console.
+2022-04-14 00:26:25,480 INFO    MainThread:40362 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-04-14 00:26:25,480 INFO    MainThread:40362 [wandb_init.py:init():664] run started, returning control to user process
+2022-04-14 00:26:25,491 INFO    MainThread:40362 [wandb_run.py:_config_callback():992] config_cb None None {'trees': 10, 'depth': 100, 'state': 2000, 'mode': 'regression'}
+2022-04-14 00:29:47,140 INFO    MainThread:40362 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 255
+2022-04-14 00:29:47,140 INFO    MainThread:40362 [wandb_run.py:_restore():1674] restore

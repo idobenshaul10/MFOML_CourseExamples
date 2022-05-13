@@ -1,0 +1,633 @@
+2022-04-20 01:05:21,630 INFO    MainThread:21386 [internal.py:wandb_internal():92] W&B internal server running at pid: 21386, started at: 2022-04-20 01:05:21.630630
+2022-04-20 01:05:21,631 INFO    WriterThread:21386 [datastore.py:open_for_write():77] open: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/run-1uyg3ava.wandb
+2022-04-20 01:05:21,633 DEBUG   SenderThread:21386 [sender.py:send():235] send: header
+2022-04-20 01:05:21,633 DEBUG   SenderThread:21386 [sender.py:send():235] send: run
+2022-04-20 01:05:21,970 INFO    SenderThread:21386 [dir_watcher.py:__init__():169] watching files in: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files
+2022-04-20 01:05:21,971 INFO    SenderThread:21386 [sender.py:_start_run_threads():812] run started: 1uyg3ava with start time 1650405921
+2022-04-20 01:05:21,971 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:05:21,971 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:05:21,971 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: check_version
+2022-04-20 01:05:21,971 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: check_version
+2022-04-20 01:05:22,299 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: run_start
+2022-04-20 01:05:22,302 DEBUG   HandlerThread:21386 [meta.py:__init__():37] meta init
+2022-04-20 01:05:22,302 DEBUG   HandlerThread:21386 [meta.py:__init__():51] meta init done
+2022-04-20 01:05:22,302 DEBUG   HandlerThread:21386 [meta.py:probe():211] probe
+2022-04-20 01:05:22,308 DEBUG   HandlerThread:21386 [git.py:repo():33] git repository is invalid
+2022-04-20 01:05:22,308 DEBUG   HandlerThread:21386 [meta.py:_save_code():89] save code
+2022-04-20 01:05:22,309 DEBUG   HandlerThread:21386 [meta.py:_save_code():110] save code done
+2022-04-20 01:05:22,309 DEBUG   HandlerThread:21386 [meta.py:_save_pip():55] save pip
+2022-04-20 01:05:22,309 DEBUG   HandlerThread:21386 [meta.py:_save_pip():69] save pip done
+2022-04-20 01:05:22,309 DEBUG   HandlerThread:21386 [meta.py:_save_conda():76] save conda
+2022-04-20 01:05:22,972 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/code/train_denoiser.py
+2022-04-20 01:05:22,973 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/conda-environment.yaml
+2022-04-20 01:05:22,973 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:05:22,973 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/requirements.txt
+2022-04-20 01:05:22,973 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/code
+2022-04-20 01:05:25,729 DEBUG   HandlerThread:21386 [meta.py:_save_conda():86] save conda done
+2022-04-20 01:05:25,730 DEBUG   HandlerThread:21386 [meta.py:probe():249] probe done
+2022-04-20 01:05:25,765 DEBUG   SenderThread:21386 [sender.py:send():235] send: files
+2022-04-20 01:05:25,765 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-20 01:05:25,765 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file code/train_denoiser.py with policy now
+2022-04-20 01:05:25,769 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:05:25,769 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:05:25,973 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/conda-environment.yaml
+2022-04-20 01:05:25,973 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-metadata.json
+2022-04-20 01:05:25,974 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:05:26,068 DEBUG   SenderThread:21386 [sender.py:send():235] send: telemetry
+2022-04-20 01:05:26,068 DEBUG   SenderThread:21386 [sender.py:send():235] send: config
+2022-04-20 01:05:26,069 DEBUG   SenderThread:21386 [sender.py:send():235] send: config
+2022-04-20 01:05:26,589 INFO    Thread-12 :21386 [upload_job.py:push():137] Uploaded file /tmp/tmpv8e8hu9iwandb/1bd6qkm5-code/train_denoiser.py
+2022-04-20 01:05:26,647 INFO    Thread-11 :21386 [upload_job.py:push():137] Uploaded file /tmp/tmpv8e8hu9iwandb/1a6vw49i-wandb-metadata.json
+2022-04-20 01:05:42,807 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:05:42,808 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:05:42,978 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:05:50,488 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:05:52,981 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/config.yaml
+2022-04-20 01:05:59,670 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:05:59,671 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:05:59,983 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:00,083 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:00,084 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:00,084 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:00,085 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:00,983 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:01,042 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:01,042 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:01,043 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:01,043 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:01,983 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:01,983 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:02,623 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:02,624 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:02,624 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:02,626 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:02,983 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:03,984 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:04,700 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:04,701 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:04,701 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:04,702 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:04,984 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:05,984 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:07,321 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:07,321 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:07,322 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:07,323 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:07,985 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:08,985 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:10,586 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:10,587 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:10,589 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:10,590 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:10,986 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:10,986 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:14,448 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:14,449 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:14,449 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:14,450 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:14,987 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:14,987 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:16,494 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:06:16,495 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:06:18,850 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:18,851 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:18,851 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:18,851 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:18,988 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:18,989 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:20,672 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:06:21,989 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:23,888 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:23,889 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:23,889 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:23,890 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:23,990 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:26,991 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:29,674 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:29,675 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:29,676 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:29,676 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:29,992 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:29,992 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:32,700 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:06:32,701 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:06:32,993 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:35,993 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:36,064 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:36,065 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:36,065 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:36,065 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:36,994 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:39,995 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:42,930 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:42,931 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:42,931 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:42,931 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:42,995 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:42,996 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:46,997 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:50,452 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:06:50,452 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:06:50,586 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:50,804 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:50,804 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:50,804 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:50,864 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:06:50,998 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:50,998 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:54,999 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:06:58,889 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:06:58,890 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:06:58,890 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:06:58,891 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:06:59,000 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:06:59,000 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:04,002 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:07,701 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:07:07,702 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:07:07,843 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:07:08,003 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:08,176 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:07:08,176 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:07:08,177 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:07:09,003 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:07:13,004 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:17,624 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:07:17,625 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:07:17,627 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:07:17,627 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:07:18,006 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:07:18,006 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:21,056 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:07:23,007 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:23,177 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:07:23,178 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:07:27,940 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:07:27,941 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:07:27,941 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:07:27,941 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:07:28,008 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:07:28,008 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:34,010 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:38,898 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:07:38,899 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:07:38,899 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:07:38,899 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:07:39,011 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:07:39,011 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:44,598 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:07:44,598 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:07:45,013 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:50,665 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:07:50,666 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:07:50,666 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:07:50,667 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:07:51,015 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:07:51,015 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:07:51,260 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:07:57,016 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:02,738 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:08:02,739 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:08:02,889 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:08:03,018 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:03,460 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:08:03,460 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:08:03,461 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:08:04,018 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:08:10,020 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:15,876 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:08:15,877 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:08:15,877 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:08:15,877 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:08:16,022 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:08:16,022 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:21,451 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:08:23,024 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:29,355 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:08:29,355 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:08:29,575 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:08:29,730 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:08:29,730 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:08:29,731 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:08:30,025 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:08:30,026 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:37,027 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:43,942 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:08:43,943 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:08:43,943 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:08:43,944 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:08:44,029 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:08:44,030 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:51,275 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:08:51,275 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:08:51,730 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:08:52,032 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:08:59,002 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:08:59,002 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:08:59,002 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:08:59,003 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:08:59,033 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:08:59,034 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:09:06,795 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:09:06,795 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:09:07,035 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:09:14,676 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:09:14,677 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:09:14,677 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:09:14,678 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:09:15,038 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:09:15,038 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:09:21,847 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:09:22,698 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:09:22,698 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:09:23,040 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:09:30,977 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:09:30,978 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:09:30,978 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:09:30,979 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:09:31,042 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:09:31,042 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:09:39,260 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:09:39,261 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:09:40,044 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:09:47,863 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:09:47,864 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:09:47,865 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:09:47,865 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:09:48,046 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:09:48,047 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:09:52,048 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:09:56,580 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:09:56,580 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:09:57,049 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:10:05,623 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:10:05,624 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:10:05,624 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:10:05,625 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:10:06,051 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:10:06,051 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:10:14,575 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:10:14,575 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:10:15,053 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:10:22,253 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:10:23,838 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:10:23,839 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:10:23,839 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:10:23,839 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:10:24,056 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:10:24,056 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:10:33,178 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:10:33,178 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:10:34,058 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:10:42,776 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:10:42,777 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:10:42,777 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:10:42,777 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:10:43,061 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:10:43,061 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:10:52,376 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:10:52,376 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:10:52,700 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:10:53,063 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:11:02,569 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:11:02,570 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:11:02,570 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:11:02,571 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:11:03,066 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:11:03,066 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:11:12,476 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:11:12,477 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:11:13,069 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:11:22,612 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:11:22,861 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:11:22,862 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:11:22,862 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:11:22,863 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:11:23,071 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:11:23,072 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:11:33,245 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:11:33,246 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:11:34,074 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:11:43,856 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:11:43,857 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:11:43,858 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:11:43,858 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:11:44,077 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:11:44,077 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:11:52,784 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:11:54,587 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:11:54,588 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:11:55,080 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:12:05,585 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:12:05,585 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:12:05,585 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:12:05,586 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:12:06,083 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:12:06,083 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:12:16,401 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:12:16,401 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:12:17,085 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:12:22,959 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:12:27,628 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:12:27,629 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:12:27,629 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:12:27,629 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:12:28,088 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:12:28,088 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:12:38,922 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:12:38,922 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:12:39,091 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:12:50,676 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:12:50,677 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:12:50,677 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:12:50,678 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:12:51,094 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:12:51,095 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:12:53,136 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:13:02,283 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:13:02,283 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:13:03,097 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:13:14,364 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:13:14,365 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:13:14,365 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:13:14,366 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:13:15,100 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:13:15,101 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:13:23,300 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:13:26,458 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:13:26,458 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:13:27,103 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:13:38,867 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:13:38,868 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:13:38,868 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:13:38,869 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:13:39,106 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:13:39,107 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:13:51,240 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:13:51,240 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:13:52,110 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:13:53,485 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:14:03,863 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:14:03,864 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:14:03,864 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:14:03,864 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:14:04,113 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:14:04,113 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:14:16,493 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:14:16,494 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:14:17,116 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:14:23,669 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:14:29,718 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:14:29,719 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:14:29,719 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:14:29,719 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:14:30,119 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:14:30,120 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:14:42,793 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:14:42,793 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:14:43,123 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:14:53,859 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:14:56,126 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:14:56,139 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:14:56,140 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:14:56,141 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:14:56,141 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:14:57,126 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:15:09,416 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:15:09,417 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:15:10,129 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:15:22,976 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:15:22,977 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:15:22,977 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:15:22,977 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:15:23,133 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:15:23,133 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:15:24,054 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:15:36,368 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:15:36,369 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:15:37,136 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:15:50,140 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:15:50,347 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:15:50,348 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:15:50,349 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:15:50,349 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:15:51,140 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:15:54,249 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:16:04,143 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:16:04,168 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:16:04,168 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:16:18,731 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:16:18,732 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:16:18,733 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:16:18,733 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:16:19,147 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:16:19,147 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:16:19,614 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:16:19,615 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:16:24,446 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:16:34,151 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:16:47,965 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:16:47,966 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:16:47,967 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:16:47,967 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:16:48,154 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:16:48,155 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:16:48,275 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:16:48,275 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:16:54,654 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:17:03,158 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:17:03,747 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:17:03,747 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:17:17,518 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:17:17,519 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:17:17,519 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:17:17,519 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:17:18,162 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:17:18,162 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:17:24,853 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:17:32,591 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:17:32,591 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:17:33,165 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:17:47,826 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:17:47,826 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:17:47,827 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:17:47,827 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:17:47,928 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:17:47,928 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:17:48,169 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:17:48,169 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:17:55,054 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:18:03,173 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:18:03,325 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:18:03,325 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:18:18,827 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:18:18,827 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:18:19,020 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:18:19,178 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:18:19,179 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:18:19,179 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:18:19,179 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:18:19,180 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:18:25,226 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:18:34,637 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:18:34,637 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:18:35,183 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:18:50,282 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:18:50,282 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:18:50,520 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:18:50,581 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:18:50,581 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:18:50,582 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:18:51,187 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:18:51,187 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:18:55,395 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:19:06,494 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:19:06,494 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:19:07,191 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:19:22,668 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:19:22,668 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:19:22,906 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:19:23,195 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:19:25,433 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:19:25,434 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:19:25,435 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:19:25,568 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:19:26,196 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:19:39,200 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:19:55,686 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-20 01:19:55,688 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: stop_status
+2022-04-20 01:19:55,929 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:19:55,948 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-20 01:19:55,994 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:19:55,994 DEBUG   SenderThread:21386 [sender.py:send():235] send: history
+2022-04-20 01:19:55,995 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:19:55,995 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:19:55,995 DEBUG   SenderThread:21386 [sender.py:send():235] send: telemetry
+2022-04-20 01:19:55,995 DEBUG   SenderThread:21386 [sender.py:send():235] send: telemetry
+2022-04-20 01:19:56,204 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:19:56,204 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:19:58,205 INFO    Thread-7  :21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:19:58,733 DEBUG   SenderThread:21386 [sender.py:send():235] send: exit
+2022-04-20 01:19:58,733 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:58,733 INFO    SenderThread:21386 [sender.py:send_exit():371] handling exit code: 0
+2022-04-20 01:19:58,734 INFO    SenderThread:21386 [sender.py:send_exit():373] handling runtime: 876
+2022-04-20 01:19:58,734 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:19:58,734 INFO    SenderThread:21386 [sender.py:send_exit():379] send defer
+2022-04-20 01:19:58,734 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:58,735 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:19:58,735 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-20 01:19:58,735 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:19:58,735 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-20 01:19:58,735 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 1
+2022-04-20 01:19:58,735 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:19:58,735 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-20 01:19:58,769 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:19:58,769 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-20 01:19:58,769 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 2
+2022-04-20 01:19:58,769 DEBUG   SenderThread:21386 [sender.py:send():235] send: stats
+2022-04-20 01:19:58,769 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:19:58,769 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-20 01:19:58,770 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:19:58,770 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-20 01:19:58,770 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 3
+2022-04-20 01:19:58,770 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:19:58,770 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-20 01:19:58,770 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:19:58,770 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-20 01:19:58,770 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 4
+2022-04-20 01:19:58,770 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:19:58,770 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-20 01:19:58,770 DEBUG   SenderThread:21386 [sender.py:send():235] send: summary
+2022-04-20 01:19:58,771 INFO    SenderThread:21386 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-20 01:19:58,771 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:19:58,771 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-20 01:19:58,771 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 5
+2022-04-20 01:19:58,771 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:19:58,771 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-20 01:19:58,771 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:19:58,771 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-20 01:19:58,836 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,103 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 6
+2022-04-20 01:19:59,103 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:59,103 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:19:59,103 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-20 01:19:59,104 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:19:59,104 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-20 01:19:59,104 INFO    SenderThread:21386 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-20 01:19:59,205 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,206 INFO    SenderThread:21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:19:59,206 INFO    SenderThread:21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:19:59,206 INFO    SenderThread:21386 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/config.yaml
+2022-04-20 01:19:59,207 INFO    SenderThread:21386 [dir_watcher.py:finish():313] scan: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files
+2022-04-20 01:19:59,207 INFO    SenderThread:21386 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-metadata.json wandb-metadata.json
+2022-04-20 01:19:59,207 INFO    SenderThread:21386 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log output.log
+2022-04-20 01:19:59,207 INFO    SenderThread:21386 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/config.yaml config.yaml
+2022-04-20 01:19:59,207 INFO    SenderThread:21386 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/conda-environment.yaml conda-environment.yaml
+2022-04-20 01:19:59,207 INFO    SenderThread:21386 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json wandb-summary.json
+2022-04-20 01:19:59,210 INFO    SenderThread:21386 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/requirements.txt requirements.txt
+2022-04-20 01:19:59,211 INFO    SenderThread:21386 [dir_watcher.py:finish():327] scan save: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/code/train_denoiser.py code/train_denoiser.py
+2022-04-20 01:19:59,214 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 7
+2022-04-20 01:19:59,214 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:59,221 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:19:59,221 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-20 01:19:59,221 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:19:59,221 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-20 01:19:59,221 INFO    SenderThread:21386 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-20 01:19:59,317 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,317 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:59,419 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,419 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:59,521 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,521 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:59,622 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,622 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:59,723 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,724 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:59,825 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,825 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:19:59,927 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:19:59,927 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:20:00,028 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:20:00,028 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:20:00,045 INFO    Thread-17 :21386 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/requirements.txt
+2022-04-20 01:20:00,072 INFO    Thread-15 :21386 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/conda-environment.yaml
+2022-04-20 01:20:00,084 INFO    Thread-16 :21386 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/wandb-summary.json
+2022-04-20 01:20:00,129 INFO    Thread-13 :21386 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/output.log
+2022-04-20 01:20:00,130 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:20:00,130 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:20:00,148 INFO    Thread-14 :21386 [upload_job.py:push():137] Uploaded file /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/files/config.yaml
+2022-04-20 01:20:00,231 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:20:00,231 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:20:00,333 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:20:00,333 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:20:00,348 INFO    Thread-6  :21386 [sender.py:transition_state():392] send defer: 8
+2022-04-20 01:20:00,349 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:20:00,349 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-20 01:20:00,349 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:20:00,349 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-20 01:20:00,434 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:20:01,221 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 9
+2022-04-20 01:20:01,222 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:20:01,222 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:20:01,222 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-20 01:20:01,222 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:20:01,222 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-20 01:20:01,223 INFO    SenderThread:21386 [sender.py:transition_state():392] send defer: 10
+2022-04-20 01:20:01,223 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: defer
+2022-04-20 01:20:01,223 DEBUG   SenderThread:21386 [sender.py:send():235] send: final
+2022-04-20 01:20:01,223 INFO    HandlerThread:21386 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-20 01:20:01,223 DEBUG   SenderThread:21386 [sender.py:send():235] send: footer
+2022-04-20 01:20:01,223 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: defer
+2022-04-20 01:20:01,223 INFO    SenderThread:21386 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-20 01:20:01,323 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-20 01:20:01,324 DEBUG   SenderThread:21386 [sender.py:send_request():249] send_request: poll_exit
+2022-04-20 01:20:01,324 INFO    SenderThread:21386 [file_pusher.py:join():150] waiting for file pusher
+2022-04-20 01:20:02,092 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-20 01:20:02,094 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-20 01:20:02,095 DEBUG   HandlerThread:21386 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-20 01:20:02,095 INFO    HandlerThread:21386 [handler.py:finish():778] shutting down handler
+2022-04-20 01:20:02,224 INFO    WriterThread:21386 [datastore.py:close():281] close: /home/ido/projects/MNIST_comparison/wandb/run-20220420_010514-1uyg3ava/run-1uyg3ava.wandb
+2022-04-20 01:20:02,991 INFO    SenderThread:21386 [sender.py:finish():1078] shutting down sender
+2022-04-20 01:20:02,991 INFO    SenderThread:21386 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-20 01:20:02,991 INFO    SenderThread:21386 [file_pusher.py:join():150] waiting for file pusher
+2022-04-20 01:20:02,993 INFO    MainThread:21386 [internal.py:handle_exit():82] Internal process exited
